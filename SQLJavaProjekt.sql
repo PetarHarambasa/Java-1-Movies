@@ -103,12 +103,12 @@ GO
 ---Pogledi---
 
 CREATE VIEW vwGlumac AS
-SELECT * FROM Djelatnik WHERE TipID = 2
+SELECT * FROM Djelatnik WHERE TipID = 1
 
 GO
 
 CREATE VIEW vwRedatelj AS
-SELECT * FROM Djelatnik WHERE TipID = 1
+SELECT * FROM Djelatnik WHERE TipID = 2
 
 GO
 
@@ -169,7 +169,7 @@ GO
 CREATE PROCEDURE spSelectGenresByMovieID
 	@MovieID INT
 AS
-SELECT z.IDZanr AS IDZanar, z.Naziv AS Zanr FROM ZanarFilm AS zf INNER JOIN Zanr AS z ON zf.ZanrID = z.IDZanr
+SELECT z.IDZanr, z.Naziv AS Zanr FROM ZanarFilm AS zf INNER JOIN Zanr AS z ON zf.ZanrID = z.IDZanr
 WHERE zf.FilmID = @MovieID
 
 GO
@@ -355,7 +355,7 @@ CREATE PROCEDURE spUpdateMovie
 	@Duration INT,
 	@ImagePath NVARCHAR(255)
 AS
-UPDATE Film SET Naslov = @Title, Opis = @Descrription, Trajanje = @Descrription, Slika = @ImagePath WHERE IDFilm = @IDMovie 
+UPDATE Film SET Naslov = @Title, Opis = @Descrription, Trajanje = @Duration, Slika = @ImagePath WHERE IDFilm = @IDMovie 
 
 GO
 

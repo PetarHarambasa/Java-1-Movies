@@ -218,7 +218,7 @@ public class SqlRepository implements Repository {
             stmt.setInt(4, selectedMovie.getDuration());
             stmt.setString(5, selectedMovie.getPicutrePath());
             stmt.executeUpdate();
-
+            }
             if (!selectedMovie.getActors().isEmpty()) {
                 createActors(selectedMovie.getId(), selectedMovie.getActors());
             }
@@ -227,10 +227,9 @@ public class SqlRepository implements Repository {
                 createDirectors(selectedMovie.getId(), selectedMovie.getDirector());
             }
 
-            if (!selectedMovie.getActors().isEmpty()) {
+            if (!selectedMovie.getGenre().isEmpty()) {
                 createGenres(selectedMovie.getId(), selectedMovie.getGenre());
             }
-        }
     }
 
     @Override

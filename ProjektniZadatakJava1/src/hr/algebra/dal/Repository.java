@@ -39,6 +39,8 @@ public interface Repository {
 
     Optional<Movie> selectMovie(int selectMovieID) throws Exception;
 
+    void updateMovie(Movie selectedMovie) throws Exception;
+    
     List<Person> selectPersons() throws Exception;
 
     int updatePerson(Person selectedPerson, String firstName, String lastName) throws Exception;
@@ -66,6 +68,4 @@ public interface Repository {
     int deletePerson(int id) throws Exception;
 
     int deleteMovie(int id) throws Exception;
-
-    void updateMovie(Movie selectedMovie) throws Exception;
 }

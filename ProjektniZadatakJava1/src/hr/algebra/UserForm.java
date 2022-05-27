@@ -685,14 +685,14 @@ public class UserForm extends javax.swing.JFrame {
     private void initDragNDrop() {
         lsAllPeople.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         lsAllPeople.setDragEnabled(true);
-        lsAllPeople.setTransferHandler(new ExportTransferHandler());
+        lsAllPeople.setTransferHandler(new ExportTransferPeopleHandler());
 
         lsAllGenres.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         lsAllGenres.setDragEnabled(true);
         lsAllGenres.setTransferHandler(new ExportTransferGenreHandler());
 
         lsMovieActors.setDropMode(DropMode.ON);
-        lsMovieActors.setTransferHandler(new ImportTransferHandler());
+        lsMovieActors.setTransferHandler(new ImportTransferActorHandler());
 
         lsMovieDirectors.setDropMode(DropMode.ON);
         lsMovieDirectors.setTransferHandler(new ImportTransferDirectorHandler());
@@ -818,6 +818,12 @@ public class UserForm extends javax.swing.JFrame {
             Transferable transferable = support.getTransferable();
             try {
                 Person director = (Person) transferable.getTransferData(PersonTransferable.PERSON_FLAVOR);
+                
+                if (directors.add(director)) {
+                    newDirectors.add(director);
+                    loadMovieDirectorsModel();
+                    return true;
+                }
             } catch (UnsupportedFlavorException | IOException ex) {
                 Logger.getLogger(UserForm.class.getName()).log(Level.SEVERE, null, ex);
             }
@@ -872,7 +878,7 @@ public class UserForm extends javax.swing.JFrame {
 
     }
 
-    private class ImportTransferHandler extends TransferHandler {
+    private class ImportTransferActorHandler extends TransferHandler {
 
         @Override
         public boolean canImport(TransferSupport support) {
@@ -906,7 +912,7 @@ public class UserForm extends javax.swing.JFrame {
         lsMovieActors.setModel(movieActorsModel);
     }
 
-    private class ExportTransferHandler extends TransferHandler {
+    private class ExportTransferPeopleHandler extends TransferHandler {
 
         @Override
         public int getSourceActions(JComponent c) {
