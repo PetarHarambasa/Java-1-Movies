@@ -16,6 +16,7 @@ import hr.algebra.model.PersonTableModel;
 import hr.algebra.utils.MessageUtils;
 import java.awt.Toolkit;
 import java.awt.event.WindowEvent;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;

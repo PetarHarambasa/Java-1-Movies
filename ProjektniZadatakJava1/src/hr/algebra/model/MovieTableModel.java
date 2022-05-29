@@ -47,7 +47,7 @@ public class MovieTableModel extends AbstractTableModel {
             case 3:
                 return movies.get(rowIndex).getDuration();
             case 4:
-                return movies.get(rowIndex).getPicutrePath();
+                return movies.get(rowIndex).getPicturePath();
             default:
                 throw new RuntimeException("No such column exists");
         }

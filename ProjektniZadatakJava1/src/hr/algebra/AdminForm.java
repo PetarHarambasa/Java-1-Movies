@@ -5,6 +5,8 @@
  */
 package hr.algebra;
 
+import hr.algebra.component.UploadMoviePanel;
+
 /**
  *
  * @author User
@@ -86,7 +88,7 @@ public class AdminForm extends javax.swing.JFrame {
     }
 
     private void configurePanel() {
-        //tpContent.add(UPLOAD_MOVIE, new UploadMoviePanel());
+        tpContent.add(UPLOAD_MOVIE, new UploadMoviePanel());
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

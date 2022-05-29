@@ -510,10 +510,10 @@ public class UserForm extends javax.swing.JFrame {
 
         if (formValid()) {
             try {
-                if (selectedMovie.getPicutrePath() == null || !tfImagePath.getText().trim().equals(selectedMovie.getPicutrePath())) {
-                    Files.deleteIfExists(Paths.get(selectedMovie.getPicutrePath()));
+                if (selectedMovie.getPicturePath()== null || !tfImagePath.getText().trim().equals(selectedMovie.getPicturePath())) {
+                    Files.deleteIfExists(Paths.get(selectedMovie.getPicturePath()));
                     String localPicturePath = uploadPicture();
-                    selectedMovie.setPicutrePath(localPicturePath);
+                    selectedMovie.setPicturePath(localPicturePath);
                 }
                 selectedMovie.setTitle(tfTitle.getText().trim());
                 selectedMovie.setDescription(taDescription.getText().trim());
@@ -557,7 +557,7 @@ public class UserForm extends javax.swing.JFrame {
         if (MessageUtils.showConfirmDialog("Delete movie", "Are you sure about that?") == JOptionPane.YES_OPTION) {
 
             try {
-                Files.deleteIfExists(Paths.get(selectedMovie.getPicutrePath()));
+                Files.deleteIfExists(Paths.get(selectedMovie.getPicturePath()));
                 int movieDelete = repository.deleteMovie(selectedMovie.getId());
 
                 if (movieDelete == 0) {
@@ -772,9 +772,9 @@ public class UserForm extends javax.swing.JFrame {
         directors.clear();
         genres.clear();
 
-        if (selectedMovie.getPicutrePath() != null && Files.exists(Paths.get(selectedMovie.getPicutrePath()))) {
-            tfImagePath.setText(selectedMovie.getPicutrePath());
-            setIcon(lbIcon, new File(selectedMovie.getPicutrePath()));
+        if (selectedMovie.getPicturePath()!= null && Files.exists(Paths.get(selectedMovie.getPicturePath()))) {
+            tfImagePath.setText(selectedMovie.getPicturePath());
+            setIcon(lbIcon, new File(selectedMovie.getPicturePath()));
         } else {
             tfImagePath.setText("");
             lbIcon.setIcon(new ImageIcon(getClass().getResource(defaultImagePath)));

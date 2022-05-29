@@ -17,8 +17,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Types;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
 import javax.sql.DataSource;
 
 /**
@@ -55,8 +57,10 @@ public class SqlRepository implements Repository {
 
     private static final String SELECT_MOVIES = "{CALL spSelectMovies }";
     private static final String CREATE_MOVIE = "{CALL spCreateMovie (?, ?, ?, ?, ?)}";
+    private static final String CREATE_MOVIES = "{CALL spCreateMovies (?, ?, ?, ?, ?)}";
     private static final String SELECT_MOVIE = "{CALL spSelectMovie (?)}";
     private static final String DELETE_MOVIE = "{CALL spDeleteMovie (?, ?)}";
+    private static final String DELETE_MOVIES = "{CALL spDeleteMovies }";
     private static final String UPDATE_MOVIE = "{CALL spUpdateMovie (?, ?, ?, ?, ?)}";
 
     private static final String SELECT_GENRES = "{CALL spSelectGenres}";
@@ -66,6 +70,7 @@ public class SqlRepository implements Repository {
     private static final String DELETE_GENRE = "{CALL spDeleteGenre (?, ?)}";
     private static final String UPDATE_GENRE = "{CALL spUpdateGenre (?, ?, ?)}";
     private static final String CREATE_MOVIE_GENRE = "{CALL spCreateMovieGenre (?, ?)}";
+    private static final String SELECT_MOVIES_TITLE = "{CALL spSelectMoviesTitle }";
 
     private static final String CREATE_ACTOR = "{CALL spCreateActor (?, ?, ?)}";
     private static final String CREATE_ACTORS = "{CALL spCreateActors (?, ?, ?)}";
@@ -99,7 +104,6 @@ public class SqlRepository implements Repository {
                 return null;
             }
         }
-
         return null;
     }
 
@@ -144,11 +148,6 @@ public class SqlRepository implements Repository {
     }
 
     @Override
-    public void createMovies(List<Movie> movies) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
     public int createMovie(Movie movie) throws SQLException {
         DataSource dataSource = DataSourceSingleton.getInstance();
         try (Connection con = dataSource.getConnection();
@@ -157,11 +156,34 @@ public class SqlRepository implements Repository {
             stmt.setString(1, movie.getTitle());
             stmt.setString(2, movie.getDescription());
             stmt.setInt(3, movie.getDuration());
-            stmt.setString(4, movie.getPicutrePath());
+            stmt.setString(4, movie.getPicturePath());
             stmt.registerOutParameter(5, Types.INTEGER);
 
             stmt.executeUpdate();
             return stmt.getInt(5);
+        }
+    }
+
+    @Override
+    public void createMovies(List<Movie> movies) throws Exception {
+        DataSource dataSource = DataSourceSingleton.getInstance();
+        try (Connection con = dataSource.getConnection();
+                CallableStatement stmt = con.prepareCall(CREATE_MOVIES)) {
+            for (Movie movie : movies) {
+                stmt.setString(1, movie.getTitle());
+                stmt.setString(2, movie.getDescription());
+                stmt.setInt(3, movie.getDuration());
+                stmt.setString(4, movie.getPicturePath());
+                stmt.registerOutParameter(5, Types.INTEGER);
+                stmt.executeUpdate();
+                int moiveID = stmt.getInt(5);
+
+                if (moiveID > 0) {
+                    createActors(moiveID, movie.getActors());
+                    createGenres(moiveID, movie.getGenre());
+                    createDirectors(moiveID, movie.getDirector());
+                }
+            }
         }
     }
 
@@ -192,8 +214,12 @@ public class SqlRepository implements Repository {
 
     @Override
     public void deleteMovies() throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+        DataSource dataSource = DataSourceSingleton.getInstance();
+        try (Connection con = dataSource.getConnection();
+                CallableStatement stmt = con.prepareCall(DELETE_MOVIES)) {
+            stmt.executeUpdate();
+        }
+   }
 
     @Override
     public int deleteMovie(int id) throws Exception {
@@ -216,20 +242,60 @@ public class SqlRepository implements Repository {
             stmt.setString(2, selectedMovie.getTitle());
             stmt.setString(3, selectedMovie.getDescription());
             stmt.setInt(4, selectedMovie.getDuration());
-            stmt.setString(5, selectedMovie.getPicutrePath());
+            stmt.setString(5, selectedMovie.getPicturePath());
             stmt.executeUpdate();
-            }
-            if (!selectedMovie.getActors().isEmpty()) {
-                createActors(selectedMovie.getId(), selectedMovie.getActors());
-            }
+        }
+        if (!selectedMovie.getActors().isEmpty()) {
+            createActors(selectedMovie.getId(), selectedMovie.getActors());
+        }
 
-            if (!selectedMovie.getDirector().isEmpty()) {
-                createDirectors(selectedMovie.getId(), selectedMovie.getDirector());
-            }
+        if (!selectedMovie.getDirector().isEmpty()) {
+            createDirectors(selectedMovie.getId(), selectedMovie.getDirector());
+        }
 
-            if (!selectedMovie.getGenre().isEmpty()) {
-                createGenres(selectedMovie.getId(), selectedMovie.getGenre());
+        if (!selectedMovie.getGenre().isEmpty()) {
+            createGenres(selectedMovie.getId(), selectedMovie.getGenre());
+        }
+    }
+
+    @Override
+    public List<Movie> selectMovie() throws Exception {
+        List<Movie> movies = new ArrayList<>();
+        DataSource dataSource = DataSourceSingleton.getInstance();
+
+        try (Connection con = dataSource.getConnection();
+                CallableStatement stmt = con.prepareCall(SELECT_MOVIES);
+                ResultSet rs = stmt.executeQuery()) {
+
+            while (rs.next()) {
+                movies.add(new Movie(
+                        rs.getInt(MOVIE_ID),
+                        rs.getString(TITLE),
+                        rs.getString(DESCRIPTION),
+                        rs.getString(IMAGE),
+                        rs.getInt(DURATION),
+                        selectGenresByMovieID(rs.getInt(MOVIE_ID)),
+                        selectDirectorsByMovieID(rs.getInt(MOVIE_ID)),
+                        selectActorsByMovieID(rs.getInt(MOVIE_ID))
+                ));
             }
+        }
+        return movies;
+    }
+
+    @Override
+    public Set<String> selectMoviesTitle() throws Exception {
+        Set<String> moviesTitle = new HashSet<>();
+        DataSource dataSource = DataSourceSingleton.getInstance();
+        try (Connection con = dataSource.getConnection();
+                CallableStatement stmt = con.prepareCall(SELECT_MOVIES_TITLE);
+                ResultSet rs = stmt.executeQuery()) {
+            while (rs.next()) {
+                moviesTitle.add(rs.getString(1));
+            }
+        }
+
+        return moviesTitle;
     }
 
     @Override
@@ -366,11 +432,6 @@ public class SqlRepository implements Repository {
                 return stmt.getInt(2);
             }
         }
-    }
-
-    @Override
-    public List<Actor> selectActors() throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
@@ -549,7 +610,7 @@ public class SqlRepository implements Repository {
             stmt.executeUpdate();
         }
     }
-        
+
     private void createMovieGenres(int movieID, int genreID) throws SQLException {
         DataSource dataSource = DataSourceSingleton.getInstance();
         try (Connection con = dataSource.getConnection();

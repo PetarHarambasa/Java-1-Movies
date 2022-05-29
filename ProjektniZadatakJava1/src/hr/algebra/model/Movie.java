@@ -7,20 +7,35 @@ package hr.algebra.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
+import javax.xml.bind.annotation.XmlType;
 
 /**
  *
  * @author User
  */
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(propOrder = {"Title", "Description", "Duration", "picturePath", "Genre", "Actors", "Director"})
 public class Movie {
 
+    @XmlAttribute
     private int id;
     private String Title;
     private String Description;
-    private String picutrePath;
+    private String picturePath;
     private int Duration;
+    @XmlElementWrapper
+    @XmlElement(name = "Genre")
     private List<Genre> Genre;
+    @XmlElementWrapper
+    @XmlElement(name = "Director")
     private List<Person> Director;
+    @XmlElementWrapper
+    @XmlElement(name = "Actors")
     private List<Person> Actors;
 
     public Movie() {
@@ -29,23 +44,23 @@ public class Movie {
         Director = new ArrayList<>();
     }
 
-    public Movie(int id, String Title, String Description, String picutrePath, int Duration) {
-        this(Title, Description, picutrePath, Duration);
+    public Movie(int id, String Title, String Description, String picturePath, int Duration) {
+        this(Title, Description, picturePath, Duration);
         this.id = id;
         Genre = new ArrayList<>();
         Actors = new ArrayList<>();
         Director = new ArrayList<>();
     }
 
-    public Movie(String Title, String Description, String picutrePath, int Duration) {
+    public Movie(String Title, String Description, String picturePath, int Duration) {
         this.Title = Title;
         this.Description = Description;
-        this.picutrePath = picutrePath;
+        this.picturePath = picturePath;
         this.Duration = Duration;
     }
 
-    public Movie(int id, String Title, String Description, String picutrePath, int Duration, List<Genre> Genre, List<Person> Director, List<Person> Actors) {
-        this(id, Title, Description, picutrePath, Duration);
+    public Movie(int id, String Title, String Description, String picturePath, int Duration, List<Genre> Genre, List<Person> Director, List<Person> Actors) {
+        this(id, Title, Description, picturePath, Duration);
         this.Genre = Genre;
         this.Director = Director;
         this.Actors = Actors;
@@ -75,12 +90,12 @@ public class Movie {
         this.Description = Description;
     }
 
-    public String getPicutrePath() {
-        return picutrePath;
+    public String getPicturePath() {
+        return picturePath;
     }
 
-    public void setPicutrePath(String picutrePath) {
-        this.picutrePath = picutrePath;
+    public void setPicturePath(String picturePath) {
+        this.picturePath = picturePath;
     }
 
     public int getDuration() {
@@ -117,7 +132,7 @@ public class Movie {
 
     @Override
     public String toString() {
-        return "Movie: " + Title + " (" + Duration + ")" + ", " + Description;
+        return  Title + " (" + Duration  + "), " + Description;
     }
 
 }

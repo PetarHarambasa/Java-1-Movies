@@ -12,6 +12,7 @@ import hr.algebra.model.Movie;
 import hr.algebra.model.Person;
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
 
 /**
  *
@@ -19,6 +20,7 @@ import java.util.Optional;
  */
 public interface Repository {
 
+    
     String checkIfUserExists(String username, String password) throws Exception;
 
     int createUser(String username, String password) throws Exception;
@@ -45,9 +47,7 @@ public interface Repository {
 
     int updatePerson(Person selectedPerson, String firstName, String lastName) throws Exception;
 
-    Optional<Person> selectPerson(int selectedPersonID) throws Exception;
-
-    List<Actor> selectActors() throws Exception;
+    Optional<Person> selectPerson(int selectedPersonID) throws Exception;    
 
     int createActor(Actor actor) throws Exception;
 
@@ -68,4 +68,8 @@ public interface Repository {
     int deletePerson(int id) throws Exception;
 
     int deleteMovie(int id) throws Exception;
+
+    List<Movie> selectMovie() throws Exception;
+    
+    Set<String> selectMoviesTitle() throws Exception;
 }

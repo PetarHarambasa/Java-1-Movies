@@ -132,7 +132,6 @@ IF EXISTS(SELECT KorisnickoIme FROM Korisnik WHERE KorisnickoIme = @UserName AND
 	BEGIN
 		SELECT kr.Naziv AS RolaKorisnika FROM Korisnik AS k INNER JOIN RoleKorisnika as kr ON k.RolaKorisnikaID = kr.IDRolaKorisnika
 		WHERE k.KorisnickoIme = @UserName AND k.Lozinka = @Password
-		RETURN (1)
 	END
 GO
 
@@ -144,7 +143,6 @@ AS
 IF EXISTS(SELECT KorisnickoIme FROM Korisnik WHERE IDKorisnik = @ID)
 	BEGIN
 		SET @ID = 0 
-		RETURN (1)
 	END
 ELSE
 	BEGIN
@@ -155,14 +153,14 @@ GO
 
 CREATE PROCEDURE spSelectMovies
 AS
-SELECT DISTINCT f.IDFilm AS ID, f.Naslov AS Naslov, f.Opis AS Opis, f.Slika AS Slika, f.Trajanje AS Trajanje FROM Film AS f where f.Aktivan = 0 
+SELECT DISTINCT f.IDFilm AS ID, f.Naslov AS Naslov, f.Opis AS Opis, f.Slika AS Slika, f.Trajanje AS Trajanje FROM Film AS f where f.Aktivan = 1 
 
 GO
 
 CREATE PROCEDURE spSelectMovie
 	@IDMovie INT
 AS
-SELECT IDFilm AS ID, Naslov, Opis, Trajanje, Slika FROM Film WHERE IDFilm = @IDMovie AND Aktivan = 0
+SELECT IDFilm AS ID, Naslov, Opis, Trajanje, Slika FROM Film WHERE IDFilm = @IDMovie AND Aktivan = 1
 
 GO
 
@@ -178,7 +176,7 @@ CREATE PROCEDURE spSelectActorsByMovieID
 	@MovieID INT
 AS
 SELECT d.IDDjelatnik AS IDGlumac, d.Ime AS GlumacIme, d.Prezime AS GlumacPrezime FROM Djelatnik AS d INNER JOIN FilmDjelatnik AS fd ON fd.DjelatnikID = d.IDDjelatnik
-WHERE fd.FilmID = @MovieID AND d.TipID = 2 AND d.Aktivan = 0
+WHERE fd.FilmID = @MovieID AND d.TipID = 2 AND d.Aktivan = 1
 
 GO
 
@@ -186,7 +184,7 @@ CREATE PROCEDURE spSelectDirectorsByMovieID
 	@MovieID INT
 AS
 SELECT d.IDDjelatnik AS IDRedatelj, d.Ime AS RedateljIme, d.Prezime AS RedateljPrezime FROM Djelatnik AS d INNER JOIN FilmDjelatnik AS fd ON fd.DjelatnikID = d.IDDjelatnik
-WHERE fd.FilmID = @MovieID AND d.TipID = 1 AND d.Aktivan = 0
+WHERE fd.FilmID = @MovieID AND d.TipID = 1 AND d.Aktivan = 1
 
 GO
 
@@ -198,16 +196,14 @@ CREATE PROCEDURE spCreateMovies
 	@ID INT OUT
 AS
 BEGIN
-	IF EXISTS (SELECT * FROM Film WHERE Naslov = @Title AND Opis = @Description AND Trajanje = @Duration AND Slika = @Picture AND Aktivan = 0)
+	IF EXISTS (SELECT * FROM Film WHERE Naslov = @Title AND Opis = @Description AND Trajanje = @Duration AND Slika = @Picture AND Aktivan = 1)
 		BEGIN
 			SET @ID = 0
-			RETURN (1)
 		END
 	ELSE
 		BEGIN
-			INSERT INTO Film (Naslov, Opis, Trajanje, Slika, Aktivan) VALUES (@Title, @Description, @Duration, @Picture, 0)
+			INSERT INTO Film (Naslov, Opis, Trajanje, Slika, Aktivan) VALUES (@Title, @Description, @Duration, @Picture, 1)
 			SET @ID = @@IDENTITY
-			RETURN(2)
 		END
 	END
 GO
@@ -219,17 +215,21 @@ CREATE PROCEDURE spCreateMovie
 	@ImagePath NVARCHAR(255),
 	@IDMovie INT OUT
 AS
-IF EXISTS (SELECT * FROM Film WHERE Naslov = @Title AND Opis = @Description AND Trajanje = @Duration AND Slika = @ImagePath AND Aktivan = 0)
+IF EXISTS (SELECT * FROM Film WHERE Naslov = @Title AND Opis = @Description AND Trajanje = @Duration AND Slika = @ImagePath AND Aktivan = 1)
 		BEGIN
 			SET @IDMovie = 0
-			RETURN (1)
 		END
 	ELSE
 		BEGIN
-			INSERT INTO Film (Naslov, Opis, Trajanje, Slika, Aktivan) VALUES (@Title, @Description, @Duration, @ImagePath, 0)
+			INSERT INTO Film (Naslov, Opis, Trajanje, Slika, Aktivan) VALUES (@Title, @Description, @Duration, @ImagePath, 1)
 			SET @IDMovie = @@IDENTITY
-			RETURN(2)
 		END
+GO
+
+CREATE PROCEDURE spSelectMoviesTitle
+AS
+SELECT DISTINCT Naslov FROM Film WHERE Aktivan = 1
+
 GO
 
 CREATE PROCEDURE spCreateActors
@@ -237,25 +237,22 @@ CREATE PROCEDURE spCreateActors
 	@LastName NVARCHAR(255),
 	@ActorID INT OUT
 AS
-IF EXISTS (SELECT * FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 0 AND TipID = 2)
+IF EXISTS (SELECT * FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 1 AND TipID = 2)
 	BEGIN
-		SET @ActorID = (SELECT IDDjelatnik FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 0 AND TipID = 2)
-		RETURN(1)
+		SET @ActorID = (SELECT IDDjelatnik FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 1 AND TipID = 2)
 	END
-ELSE IF NOT EXISTS (SELECT * FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 0 AND TipID = 2)
+ELSE IF NOT EXISTS (SELECT * FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 1 AND TipID = 2)
 	BEGIN
-		INSERT INTO vwGlumac (Ime, Prezime, Aktivan) VALUES (@FirstName, @LastName, 0)
+		INSERT INTO vwGlumac(Ime, Prezime, Aktivan, TipID) VALUES (@FirstName, @LastName, 1, 2)
 		SET @ActorID = @@IDENTITY
-		RETURN (2)
 	END
-ELSE IF EXISTS (SELECT * FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 0 AND TipID = 1)
+ELSE IF EXISTS (SELECT * FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 1 AND TipID = 1)
 	BEGIN
-		SET @ActorID = (SELECT IDDjelatnik FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 0 AND TipID = 1)
-		RETURN (3)
+		SET @ActorID = (SELECT IDDjelatnik FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 1 AND TipID = 1)
 	END
 ELSE
 	BEGIN
-		INSERT INTO vwGlumac (Ime, Prezime, Aktivan) VALUES (@FirstName, @LastName, 0)
+		INSERT INTO vwGlumac (Ime, Prezime, Aktivan, TipID) VALUES (@FirstName, @LastName, 1, 2)
 		SET @ActorID = @@IDENTITY
 		RETURN (4)
 	END
@@ -273,16 +270,14 @@ CREATE PROCEDURE spCreateGenres
 	@Name NVARCHAR(255),
 	@GenreID INT OUT
 AS
-IF EXISTS (SELECT * FROM Zanr WHERE Naziv = @Name AND Aktivan = 0)
+IF EXISTS (SELECT * FROM Zanr WHERE Naziv = @Name AND Aktivan = 1)
 	BEGIN
 		SET @GenreID = (SELECT IDZanr FROM Zanr WHERE Naziv = @Name)
-		RETURN (1)
 	END
 ELSE
 	BEGIN
-		INSERT INTO Zanr(Naziv, Aktivan) VALUES (@Name, 0)
+		INSERT INTO Zanr(Naziv, Aktivan) VALUES (@Name, 1)
 		SET @GenreID = @@IDENTITY
-		RETURN (2)
 	END
 
 GO
@@ -300,27 +295,23 @@ CREATE PROCEDURE spCreateDirectors
 	@LastName NVARCHAR(255),
 	@DirectorID INT OUT
 AS
-IF EXISTS (SELECT * FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 0 AND TipID = 1)
+IF EXISTS (SELECT * FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 1 AND TipID = 1)
 	BEGIN
-		SET @DirectorID = (SELECT IDDjelatnik FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 0 AND TipID = 1)
-		RETURN(1)
+		SET @DirectorID = (SELECT IDDjelatnik FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 1 AND TipID = 1)
 	END
-ELSE IF NOT EXISTS (SELECT * FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 0 AND TipID = 1)
+ELSE IF NOT EXISTS (SELECT * FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 1 AND TipID = 1)
 	BEGIN
-		INSERT INTO vwGlumac (Ime, Prezime, Aktivan) VALUES (@FirstName, @LastName, 0)
+		INSERT INTO vwRedatelj(Ime, Prezime, Aktivan, TipID) VALUES (@FirstName, @LastName, 1, 1)
 		SET @DirectorID = @@IDENTITY
-		RETURN (2)
 	END
-ELSE IF EXISTS (SELECT * FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 0 AND TipID = 2)
+ELSE IF EXISTS (SELECT * FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 1 AND TipID = 2)
 	BEGIN
-		SET @DirectorID = (SELECT IDDjelatnik FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 0 AND TipID = 2)
-		RETURN (3)
+		SET @DirectorID = (SELECT IDDjelatnik FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 1 AND TipID = 2)
 	END
 ELSE
 	BEGIN
-		INSERT INTO vwRedatelj(Ime, Prezime, Aktivan) VALUES (@FirstName, @LastName, 0)
+		INSERT INTO vwGlumac(Ime, Prezime, Aktivan, TipID) VALUES (@FirstName, @LastName, 1, 2)
 		SET @DirectorID = @@IDENTITY
-		RETURN (4)
 	END
 GO
 
@@ -335,7 +326,7 @@ GO
 CREATE PROCEDURE spDeleteMovies
 AS
 UPDATE Film 
-SET Aktivan = 1
+SET Aktivan = 0
 
 GO
 
@@ -343,7 +334,7 @@ CREATE PROCEDURE spDeleteMovie
 	@IDMovie INT,
 	@ID INT OUT
 AS
-UPDATE Film SET Aktivan = 1 WHERE IDFilm = @IDMovie
+UPDATE Film SET Aktivan = 0 WHERE IDFilm = @IDMovie
 SET @ID = 0
 
 GO
@@ -361,7 +352,7 @@ GO
 
 CREATE PROCEDURE spSelectActors
 AS
-SELECT IDDjelatnik AS IDGlumac, Ime AS GlumacIme, Prezime as GlumacPrezime  FROM Djelatnik WHERE Aktivan = 0 AND TipID = 2
+SELECT IDDjelatnik AS IDGlumac, Ime AS GlumacIme, Prezime as GlumacPrezime  FROM Djelatnik WHERE Aktivan = 1 AND TipID = 2
 
 GO
 
@@ -370,22 +361,20 @@ CREATE PROCEDURE spCreateActor
 	@LastName NVARCHAR(255),
 	@ID INT OUT
 AS
-IF EXISTS (SELECT * FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 0 AND TipID = 2)
+IF EXISTS (SELECT * FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 1 AND TipID = 2)
 	BEGIN
 		SET @ID = 0
-		RETURN (1)
 	END
 ELSE IF (LEN(@FirstName) > 0 AND LEN(@LastName) > 0)
 	BEGIN
-		INSERT INTO vwGlumac (Ime, Prezime, Aktivan, TipID) VALUES (@FirstName, @LastName, 0, 2)
+		INSERT INTO vwGlumac (Ime, Prezime, Aktivan, TipID) VALUES (@FirstName, @LastName, 1, 2)
 		SET @ID = @@IDENTITY
-		RETURN (2)
 	END
 Go
 
 CREATE PROCEDURE spSelectDirectors
 AS
-SELECT IDDjelatnik AS IDRedatelj, Ime AS RedateljIme, Prezime as RedateljPrezime  FROM Djelatnik WHERE Aktivan = 0 AND TipID = 1
+SELECT IDDjelatnik AS IDRedatelj, Ime AS RedateljIme, Prezime as RedateljPrezime  FROM Djelatnik WHERE Aktivan = 1 AND TipID = 1
 
 GO
 
@@ -394,16 +383,14 @@ CREATE PROCEDURE spCreateDirector
 	@LastName NVARCHAR(255),
 	@ID INT OUT
 AS
-IF EXISTS (SELECT * FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 0 AND TipID = 1)
+IF EXISTS (SELECT * FROM Djelatnik WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 1 AND TipID = 1)
 	BEGIN
 		SET @ID = 0
-		RETURN (1)
 	END
 ELSE
 	BEGIN
-		INSERT INTO vwRedatelj (Ime, Prezime, Aktivan, TipID) VALUES (@FirstName, @LastName, 0, 1)
+		INSERT INTO vwRedatelj (Ime, Prezime, Aktivan, TipID) VALUES (@FirstName, @LastName, 1, 1)
 		SET @ID = @@IDENTITY
-		RETURN (2)
 	END
 GO
 
@@ -411,7 +398,7 @@ CREATE PROCEDURE spSelectPersons
 AS
 SELECT DISTINCT d.IDDjelatnik, d.Ime, d.Prezime, t.Nazvi as Tip FROM Djelatnik AS d 
 INNER JOIN Tip AS t ON t.IDTip = d.TipID 
-WHERE Aktivan = 0
+WHERE Aktivan = 1
 
 GO
 
@@ -423,11 +410,10 @@ CREATE PROCEDURE spUpdatePerson
 	@NewLastName NVARCHAR(255),
 	@ID INT OUT
 AS
-IF EXISTS(SELECT * FROM Djelatnik WHERE IDDjelatnik = @IDPerson AND Aktivan = 0)
+IF EXISTS(SELECT * FROM Djelatnik WHERE IDDjelatnik = @IDPerson AND Aktivan = 1)
 	BEGIN 
-		UPDATE Djelatnik SET Ime = @NewFirstName, Prezime = @NewLastName WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 0
-		SET @ID = ( SELECT TipID FROM Djelatnik WHERE IDDjelatnik = @IDPerson AND Aktivan = 0 )
-		RETURN(1)
+		UPDATE Djelatnik SET Ime = @NewFirstName, Prezime = @NewLastName WHERE Ime = @FirstName AND Prezime = @LastName AND Aktivan = 1
+		SET @ID = ( SELECT TipID FROM Djelatnik WHERE IDDjelatnik = @IDPerson AND Aktivan = 1 )
 	END
 GO
 
@@ -444,7 +430,7 @@ CREATE PROCEDURE spDeletePerson
 	@IDPerson INT,
 	@ID INT OUT
 AS
-UPDATE Djelatnik SET Aktivan = 1
+UPDATE Djelatnik SET Aktivan = 0
 WHERE IDDjelatnik = @IDPerson
 SET @ID = 0
 
@@ -452,7 +438,7 @@ GO
 
 CREATE PROCEDURE spSelectGenres
 AS
-SELECT IDZanr, Naziv AS Zanr FROM Zanr WHERE Aktivan = 0
+SELECT IDZanr, Naziv AS Zanr FROM Zanr WHERE Aktivan = 1
 
 GO
 
@@ -460,23 +446,21 @@ CREATE PROCEDURE spCreateGenre
 	@Name NVARCHAR(255),
 	@GenreID INT OUT
 AS
-IF EXISTS(SELECT * FROM Zanr WHERE Naziv = @Name AND Aktivan = 0)
+IF EXISTS(SELECT * FROM Zanr WHERE Naziv = @Name AND Aktivan = 1)
 	BEGIN
 		SET @GenreID = 0
-		RETURN (1)
 	END
 ELSE
 	BEGIN
-		INSERT INTO Zanr (Naziv, Aktivan) VALUES (@Name, 0)
+		INSERT INTO Zanr (Naziv, Aktivan) VALUES (@Name, 1)
 		SET @GenreID = @@IDENTITY
-		RETURN(2)
 	END
 GO
 
 CREATE PROCEDURE spSelectGenre
 	@IDGenre INT
 AS
-SELECT IDZanr, Naziv as Zanr FROM Zanr WHERE IDZanr = @IDGenre AND Aktivan = 0
+SELECT IDZanr, Naziv as Zanr FROM Zanr WHERE IDZanr = @IDGenre AND Aktivan = 1
 
 GO
 
@@ -484,7 +468,7 @@ CREATE PROCEDURE spDeleteGenre
 	@IDGenre INT,
 	@ID INT OUT
 AS
-UPDATE Zanr SET Aktivan = 1
+UPDATE Zanr SET Aktivan = 0
 WHERE IDZanr = @IDGenre
 SET @ID = 0
 
@@ -495,7 +479,7 @@ CREATE PROCEDURE spUpdateGenre
 	@Name NVARCHAR(255),
 	@ID INT OUT
 AS
-UPDATE Zanr SET Naziv = @Name WHERE IDZanr = @IDGenre AND Aktivan = 0
+UPDATE Zanr SET Naziv = @Name WHERE IDZanr = @IDGenre AND Aktivan = 1
 SET @ID = 0
 
 GO

@@ -6,13 +6,22 @@
 package hr.algebra.model;
 
 import java.util.List;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
  * @author User
  */
+@XmlRootElement(name = "movies")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class MovieCollection {
 
+    @XmlElementWrapper
+    @XmlElement(name = "movie")
     private List<Movie> movies;
 
     public MovieCollection() {
