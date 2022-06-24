@@ -5,12 +5,18 @@
  */
 package hr.algebra.model;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+
 /**
  *
  * @author User
  */
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Genre implements Comparable<Genre> {
 
+    @XmlAttribute
     private int id;
     private String name;
 

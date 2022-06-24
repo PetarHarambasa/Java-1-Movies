@@ -35,7 +35,7 @@ public class Movie {
     @XmlElement(name = "Director")
     private List<Person> Director;
     @XmlElementWrapper
-    @XmlElement(name = "Actors")
+    @XmlElement(name = "Actor")
     private List<Person> Actors;
 
     public Movie() {
