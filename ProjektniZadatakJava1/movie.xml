@@ -1,1998 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <movies>
     <movies>
-        <movie id="36">
-            <Title>Divljaci</Title>
-            <Description>Ljeto 2018. godine, Svjetsko nogometno prvenstvo - u susret finalu u Moskvi, u hrvatskim gradovima vlada opće “ludilo”, a to je ludilo ponijelo i naše glavne junake: Zolja (Alen Liverić), Jasmin (Branko Janković) i Mali (Borko Perić) odluče se na pljačku </Description>
-            <Duration>94</Duration>
-            <picturePath>assets\movies\94218245.jpg</picturePath>
-            <Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="2">
-                    <name>komedija</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="1">
-                    <firstName>Alen</firstName>
-                    <lastName>Liverić</lastName>
-                </Actor>
-                <Actor id="2">
-                    <firstName>Branko</firstName>
-                    <lastName>Janković</lastName>
-                </Actor>
-                <Actor id="3">
-                    <firstName>Borko</firstName>
-                    <lastName>Perić</lastName>
-                </Actor>
-                <Actor id="4">
-                    <firstName>Dejan</firstName>
-                    <lastName>Aćimović</lastName>
-                </Actor>
-                <Actor id="5">
-                    <firstName>Slavko</firstName>
-                    <lastName>Sobin</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="6">
-                    <firstName>Dario</firstName>
-                    <lastName>Lonjak</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="37">
-            <Title>Divljaci</Title>
-            <Description>Leto 2018. godine, Svetsko prvenstvo u fudbalu - u susret finalu u Moskvi, u hrvatskim gradovima vlada opšte "ludilo", koje je ponelo i naše glavne junake. Zolja (Alen Liverić), Jasmin (Branko Janković) i Mali (Borko Perić) rešavaju da opljačkaju malu rad</Description>
-            <Duration>94</Duration>
-            <picturePath>assets\movies\1087034296.jpg</picturePath>
-            <Genre>
-                <Genre id="3">
-                    <name>akciona komedija</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="1">
-                    <firstName>Alen</firstName>
-                    <lastName>Liverić</lastName>
-                </Actor>
-                <Actor id="2">
-                    <firstName>Branko</firstName>
-                    <lastName>Janković</lastName>
-                </Actor>
-                <Actor id="4">
-                    <firstName>Dejan</firstName>
-                    <lastName>Aćimović</lastName>
-                </Actor>
-                <Actor id="3">
-                    <firstName>Borko</firstName>
-                    <lastName>Perić</lastName>
-                </Actor>
-                <Actor id="5">
-                    <firstName>Slavko</firstName>
-                    <lastName>Sobin</lastName>
-                </Actor>
-                <Actor id="7">
-                    <firstName>Maja</firstName>
-                    <lastName>Jurić</lastName>
-                </Actor>
-                <Actor id="8">
-                    <firstName>Mijo</firstName>
-                    <lastName>Jurišić</lastName>
-                </Actor>
-                <Actor id="9">
-                    <firstName>Nerman</firstName>
-                    <lastName>Mahmutović</lastName>
-                </Actor>
-                <Actor id="10">
-                    <firstName>Emir</firstName>
-                    <lastName>Hadžihafizbegović</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="6">
-                    <firstName>Dario</firstName>
-                    <lastName>Lonjak</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="38">
-            <Title>Priče iz skrivenog grada: Drvo želja - sinh</Title>
-            <Description>Pogrešna želja mladog oposuma zamrzava ceo njen rodni grad Sanktuari Siti i preti svima koji tamo žive.
-Početak prikazivanja: 2.6.2022</Description>
-            <Duration>90</Duration>
-            <picturePath>assets\movies\93479723.jpg</picturePath>
-            <Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-            </Genre>
-            <Actors/>
-            <Director>
-                <Director id="11">
-                    <firstName>Ricard</firstName>
-                    <lastName>Cussó</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="39">
-            <Title>Zločin u Hollywoodu</Title>
-            <Description>Charlie Waldo je bivši detektiv koji živi minimalističkim i samotnjačkim načinom života duboko u šumi. Iza sebe je ostavio uspješnu karijeru i djevojku Lorenu kako bi platio samonametnutu kaznu radi groznog propusta u jednom od prethodnih slučajeva na koj</Description>
-            <Duration>110</Duration>
-            <picturePath>assets\movies\831571867.jpg</picturePath>
-            <Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="5">
-                    <name>krimi</name>
-                </Genre>
-                <Genre id="6">
-                    <name>triler</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="12">
-                    <firstName>Charlie</firstName>
-                    <lastName>Hunnam</lastName>
-                </Actor>
-                <Actor id="13">
-                    <firstName>Morena</firstName>
-                    <lastName>Baccarin</lastName>
-                </Actor>
-                <Actor id="14">
-                    <firstName>Mel</firstName>
-                    <lastName>Gibson</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="15">
-                    <firstName>Tim</firstName>
-                    <lastName>Kirkby</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="40">
-            <Title>Jurski svijet: Carstvo</Title>
-            <Description>Ovog ljeta doživite epski završetak Jurske ere kada se dvije generacije prvi put udružuju. Chrisu Prattu i Bryceu Dallasu Howardu pridružuju se dobitnica Oscara Laura Dern, Jeff Goldblum i Sam Neill u Jurskom svijetu: Carstvo, smjeloj, pravodobnoj i novoj</Description>
-            <Duration>146</Duration>
-            <picturePath>assets\movies\1881161055.jpg</picturePath>
-            <Genre>
-                <Genre id="7">
-                    <name>epska akcijska avantura</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="16">
-                    <firstName>Chris</firstName>
-                    <lastName>Pratt</lastName>
-                </Actor>
-                <Actor id="17">
-                    <firstName>Bryce</firstName>
-                    <lastName>Dallas</lastName>
-                </Actor>
-                <Actor id="18">
-                    <firstName>Laura</firstName>
-                    <lastName>Dern</lastName>
-                </Actor>
-                <Actor id="19">
-                    <firstName>Jeff</firstName>
-                    <lastName>Goldblum</lastName>
-                </Actor>
-                <Actor id="20">
-                    <firstName>Sam</firstName>
-                    <lastName>Neill</lastName>
-                </Actor>
-                <Actor id="21">
-                    <firstName>DeWanda</firstName>
-                    <lastName>Wise</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="22">
-                    <firstName>Colin</firstName>
-                    <lastName>Trevorrow</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="41">
-            <Title>Kuhinjska brigada</Title>
-            <Description>Još od malih nogu Cathy je sanjala o tome da vodi vlastiti restoran. Ove godine, chef – ica Cathy će konačno ispuniti svoj životni san. Međutim, ništa ne ide kako je planirano. Suočena s ozbiljnim financijskim poteškoćama, nevoljko prihvaća posao u skloni</Description>
-            <Duration>97</Duration>
-            <picturePath>assets\movies\1416447388.jpg</picturePath>
-            <Genre>
-                <Genre id="7">
-                    <name>epska akcijska avantura</name>
-                </Genre>
-                <Genre id="7">
-                    <name>epska akcijska avantura</name>
-                </Genre>
-                <Genre id="2">
-                    <name>komedija</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="16">
-                    <firstName>Chris</firstName>
-                    <lastName>Pratt</lastName>
-                </Actor>
-                <Actor id="17">
-                    <firstName>Bryce</firstName>
-                    <lastName>Dallas</lastName>
-                </Actor>
-                <Actor id="18">
-                    <firstName>Laura</firstName>
-                    <lastName>Dern</lastName>
-                </Actor>
-                <Actor id="19">
-                    <firstName>Jeff</firstName>
-                    <lastName>Goldblum</lastName>
-                </Actor>
-                <Actor id="20">
-                    <firstName>Sam</firstName>
-                    <lastName>Neill</lastName>
-                </Actor>
-                <Actor id="21">
-                    <firstName>DeWanda</firstName>
-                    <lastName>Wise</lastName>
-                </Actor>
-                <Actor id="16">
-                    <firstName>Chris</firstName>
-                    <lastName>Pratt</lastName>
-                </Actor>
-                <Actor id="17">
-                    <firstName>Bryce</firstName>
-                    <lastName>Dallas</lastName>
-                </Actor>
-                <Actor id="18">
-                    <firstName>Laura</firstName>
-                    <lastName>Dern</lastName>
-                </Actor>
-                <Actor id="19">
-                    <firstName>Jeff</firstName>
-                    <lastName>Goldblum</lastName>
-                </Actor>
-                <Actor id="20">
-                    <firstName>Sam</firstName>
-                    <lastName>Neill</lastName>
-                </Actor>
-                <Actor id="21">
-                    <firstName>DeWanda</firstName>
-                    <lastName>Wise</lastName>
-                </Actor>
-                <Actor id="23">
-                    <firstName>Audrey</firstName>
-                    <lastName>Lamy</lastName>
-                </Actor>
-                <Actor id="24">
-                    <firstName>François</firstName>
-                    <lastName>Cluzet</lastName>
-                </Actor>
-                <Actor id="25">
-                    <firstName>Chantal</firstName>
-                    <lastName>Neuwirth</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="22">
-                    <firstName>Colin</firstName>
-                    <lastName>Trevorrow</lastName>
-                </Director>
-                <Director id="22">
-                    <firstName>Colin</firstName>
-                    <lastName>Trevorrow</lastName>
-                </Director>
-                <Director id="26">
-                    <firstName>Louis-Julien</firstName>
-                    <lastName>Petit</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="42">
-            <Title>Svet iz doba jure - Nadmoć</Title>
-            <Description>Ovog leta doživite epsko finale Sveta iz doba jure kada se dve generacije udruže po prvi put. Krisu Pratu i Brajs Dalas Hauard pridružuju se dobitnica Oskara Lora Dern, Džef Goldblum i Sem Nil u filmu SVET IZ DOBA JURE- NADMOĆ, smeloj, novoj avanturi koja</Description>
-            <Duration>146</Duration>
-            <picturePath>assets\movies\994880275.jpg</picturePath>
-            <Genre>
-                <Genre id="8">
-                    <name>epska akciona avantura</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="16">
-                    <firstName>Chris</firstName>
-                    <lastName>Pratt</lastName>
-                </Actor>
-                <Actor id="17">
-                    <firstName>Bryce</firstName>
-                    <lastName>Dallas</lastName>
-                </Actor>
-                <Actor id="18">
-                    <firstName>Laura</firstName>
-                    <lastName>Dern</lastName>
-                </Actor>
-                <Actor id="19">
-                    <firstName>Jeff</firstName>
-                    <lastName>Goldblum</lastName>
-                </Actor>
-                <Actor id="20">
-                    <firstName>Sam</firstName>
-                    <lastName>Neill</lastName>
-                </Actor>
-                <Actor id="21">
-                    <firstName>DeWanda</firstName>
-                    <lastName>Wise</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="22">
-                    <firstName>Colin</firstName>
-                    <lastName>Trevorrow</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="43">
-            <Title>Zločin u Holivudu</Title>
-            <Description>Osramoćeni bivši policajac traži utehu preseljenjem u šumu, ali njegov  miran život prestaje kada ga angažuju da istraži ubistvo. 
-Početak prikazivanja: 9.6.2022</Description>
-            <Duration>110</Duration>
-            <picturePath>assets\movies\2001499065.jpg</picturePath>
-            <Genre>
-                <Genre id="8">
-                    <name>epska akciona avantura</name>
-                </Genre>
-                <Genre id="8">
-                    <name>epska akciona avantura</name>
-                </Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="5">
-                    <name>krimi</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="16">
-                    <firstName>Chris</firstName>
-                    <lastName>Pratt</lastName>
-                </Actor>
-                <Actor id="17">
-                    <firstName>Bryce</firstName>
-                    <lastName>Dallas</lastName>
-                </Actor>
-                <Actor id="18">
-                    <firstName>Laura</firstName>
-                    <lastName>Dern</lastName>
-                </Actor>
-                <Actor id="19">
-                    <firstName>Jeff</firstName>
-                    <lastName>Goldblum</lastName>
-                </Actor>
-                <Actor id="20">
-                    <firstName>Sam</firstName>
-                    <lastName>Neill</lastName>
-                </Actor>
-                <Actor id="21">
-                    <firstName>DeWanda</firstName>
-                    <lastName>Wise</lastName>
-                </Actor>
-                <Actor id="16">
-                    <firstName>Chris</firstName>
-                    <lastName>Pratt</lastName>
-                </Actor>
-                <Actor id="17">
-                    <firstName>Bryce</firstName>
-                    <lastName>Dallas</lastName>
-                </Actor>
-                <Actor id="18">
-                    <firstName>Laura</firstName>
-                    <lastName>Dern</lastName>
-                </Actor>
-                <Actor id="19">
-                    <firstName>Jeff</firstName>
-                    <lastName>Goldblum</lastName>
-                </Actor>
-                <Actor id="20">
-                    <firstName>Sam</firstName>
-                    <lastName>Neill</lastName>
-                </Actor>
-                <Actor id="21">
-                    <firstName>DeWanda</firstName>
-                    <lastName>Wise</lastName>
-                </Actor>
-                <Actor id="12">
-                    <firstName>Charlie</firstName>
-                    <lastName>Hunnam</lastName>
-                </Actor>
-                <Actor id="13">
-                    <firstName>Morena</firstName>
-                    <lastName>Baccarin</lastName>
-                </Actor>
-                <Actor id="14">
-                    <firstName>Mel</firstName>
-                    <lastName>Gibson</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="22">
-                    <firstName>Colin</firstName>
-                    <lastName>Trevorrow</lastName>
-                </Director>
-                <Director id="22">
-                    <firstName>Colin</firstName>
-                    <lastName>Trevorrow</lastName>
-                </Director>
-                <Director id="15">
-                    <firstName>Tim</firstName>
-                    <lastName>Kirkby</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="44">
-            <Title>DexRock Show</Title>
-            <Description>Dođite u CineStar i zajedno s Dexom snimite najpopularnije videe i naučite sve o YouTube-u!
-
-Ne propustite najbolju zabavu ove godine! 
-
-Skupno fotografiranje biti će organizirano isključivo u dvorani dok pojedinačno fotografiranje prije/poslije predstave</Description>
-            <Duration>70</Duration>
-            <picturePath>assets\movies\252007877.jpg</picturePath>
-            <Genre/>
-            <Actors/>
-            <Director/>
-        </movie>
-        <movie id="45">
-            <Title>Baz Svetlosni - sinh</Title>
-            <Description>Baz Svetlosni je naučno-fantastični animirani film i priča o poreklu Baza Svetlosnog. Ovo je heroj koji je bio inspiriacija za nastanak igračke. Crtani otkriva kako je mladi pilot postao svemirski rendžer kako ga danas poznajemo.
-
-Početak prikazivanja: 16</Description>
-            <Duration>100</Duration>
-            <picturePath>assets\movies\332924159.jpg</picturePath>
-            <Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="27">
-                    <firstName>Petar</firstName>
-                    <lastName>Benčina</lastName>
-                </Actor>
-                <Actor id="28">
-                    <firstName>Marija</firstName>
-                    <lastName>Ćalović</lastName>
-                </Actor>
-                <Actor id="29">
-                    <firstName>Bojan</firstName>
-                    <lastName>Žirović</lastName>
-                </Actor>
-                <Actor id="30">
-                    <firstName>Marko</firstName>
-                    <lastName>Marković</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="31">
-                    <firstName>Angus</firstName>
-                    <lastName>MacLane</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="46">
-            <Title>Kuhinjska brigada</Title>
-            <Description>Kati je šef koja čeka da otvori svoj restoran. Nakon finansijskih poteškoća prihvata posao šefa kuhinje u prihvatilištu za migrante.U početku prezire svoj posao, ali tokom vremena njena strast za kuvanjem počinje da menja živote deci.Početak prikazivanja:</Description>
-            <Duration>97</Duration>
-            <picturePath>assets\movies\1723327670.jpg</picturePath>
-            <Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-                <Genre id="2">
-                    <name>komedija</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="27">
-                    <firstName>Petar</firstName>
-                    <lastName>Benčina</lastName>
-                </Actor>
-                <Actor id="28">
-                    <firstName>Marija</firstName>
-                    <lastName>Ćalović</lastName>
-                </Actor>
-                <Actor id="29">
-                    <firstName>Bojan</firstName>
-                    <lastName>Žirović</lastName>
-                </Actor>
-                <Actor id="30">
-                    <firstName>Marko</firstName>
-                    <lastName>Marković</lastName>
-                </Actor>
-                <Actor id="27">
-                    <firstName>Petar</firstName>
-                    <lastName>Benčina</lastName>
-                </Actor>
-                <Actor id="28">
-                    <firstName>Marija</firstName>
-                    <lastName>Ćalović</lastName>
-                </Actor>
-                <Actor id="29">
-                    <firstName>Bojan</firstName>
-                    <lastName>Žirović</lastName>
-                </Actor>
-                <Actor id="30">
-                    <firstName>Marko</firstName>
-                    <lastName>Marković</lastName>
-                </Actor>
-                <Actor id="23">
-                    <firstName>Audrey</firstName>
-                    <lastName>Lamy</lastName>
-                </Actor>
-                <Actor id="24">
-                    <firstName>François</firstName>
-                    <lastName>Cluzet</lastName>
-                </Actor>
-                <Actor id="25">
-                    <firstName>Chantal</firstName>
-                    <lastName>Neuwirth</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="31">
-                    <firstName>Angus</firstName>
-                    <lastName>MacLane</lastName>
-                </Director>
-                <Director id="31">
-                    <firstName>Angus</firstName>
-                    <lastName>MacLane</lastName>
-                </Director>
-                <Director id="26">
-                    <firstName>Louis-Julien</firstName>
-                    <lastName>Petit</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="47">
-            <Title>Mamac</Title>
-            <Description>Grupa prijatelja uživa u proljetnim praznicima na pješčanim plažama Meksika. Nakon noćne zabave odluče ukrasti nekoliko jet skija i njima se utrkivati. Razuzdana zabava završava zastrašujućom nesrećom.
-Nasukani miljama od obale, pravi užas počinje kada sh</Description>
-            <Duration>87</Duration>
-            <picturePath>assets\movies\335114776.jpg</picturePath>
-            <Genre>
-                <Genre id="6">
-                    <name>triler</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="32">
-                    <firstName>Holly</firstName>
-                    <lastName>Earl</lastName>
-                </Actor>
-                <Actor id="33">
-                    <firstName>Jack</firstName>
-                    <lastName>Trueman</lastName>
-                </Actor>
-                <Actor id="34">
-                    <firstName>Catherine</firstName>
-                    <lastName>Hannay</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="35">
-                    <firstName>James</firstName>
-                    <lastName>Nunn</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="48">
-            <Title>Priča o mojoj ženi</Title>
-            <Description>Romantična drama „Priča o mojoj ženi“ adaptacija je istoimenog romana autora Milana Fusta iz 1942. godine. Sama priča, varijacija na legendu o Letećem Holandezu, radnjom je smještena u dvadesete godine prošlog stoljeća. U njoj se brodski kapetan Jakop Sto</Description>
-            <Duration>169</Duration>
-            <picturePath>assets\movies\1437622749.jpg</picturePath>
-            <Genre>
-                <Genre id="9">
-                    <name>romantična drama</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="36">
-                    <firstName>Léa</firstName>
-                    <lastName>Seydoux</lastName>
-                </Actor>
-                <Actor id="37">
-                    <firstName>Louis</firstName>
-                    <lastName>Garrel</lastName>
-                </Actor>
-                <Actor id="38">
-                    <firstName>Gijs</firstName>
-                    <lastName>Naber</lastName>
-                </Actor>
-                <Actor id="39">
-                    <firstName>Luna</firstName>
-                    <lastName>Wedler</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="40">
-                    <firstName>Ildikó</firstName>
-                    <lastName>Enyedi</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="49">
-            <Title>Shark Bait</Title>
-            <Description>Grupa prijatelja uživa u vikendu i dolaze na ideju da ukradu nekoliko skutera kako bi se trkali, da bi na kraju preživeli direktan sudar. Posle stravične nesreće, sa teško povređenim prijateljem, oni se bore da pronađu put do kuće, dok iz morskih dubina v</Description>
-            <Duration>87</Duration>
-            <picturePath>assets\movies\694032193.jpg</picturePath>
-            <Genre>
-                <Genre id="6">
-                    <name>triler</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="32">
-                    <firstName>Holly</firstName>
-                    <lastName>Earl</lastName>
-                </Actor>
-                <Actor id="33">
-                    <firstName>Jack</firstName>
-                    <lastName>Trueman</lastName>
-                </Actor>
-                <Actor id="34">
-                    <firstName>Catherine</firstName>
-                    <lastName>Hannay</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="35">
-                    <firstName>James</firstName>
-                    <lastName>Nunn</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="50">
-            <Title>Svjetlosni - sink</Title>
-            <Description>Radnja filma istražuje priču o podrijetlu astronauta Buzza Svjetlosnog i njegov napredak kako bi postao kapetan Jedinice za zaštitu svemira  - Space Rangersa, posvećene borbi protiv zlog cara Zurga.Početak prikazivanja: 16.6.2022</Description>
-            <Duration>100</Duration>
-            <picturePath>assets\movies\1456100561.jpg</picturePath>
-            <Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="5">
-                    <firstName>Slavko</firstName>
-                    <lastName>Sobin</lastName>
-                </Actor>
-                <Actor id="41">
-                    <firstName>Lana</firstName>
-                    <lastName>Meniga</lastName>
-                </Actor>
-                <Actor id="42">
-                    <firstName>Rakan</firstName>
-                    <lastName>Rushaidat</lastName>
-                </Actor>
-                <Actor id="43">
-                    <firstName>Hrvoje</firstName>
-                    <lastName>Klobučar</lastName>
-                </Actor>
-                <Actor id="44">
-                    <firstName>Slavica</firstName>
-                    <lastName>Knežević</lastName>
-                </Actor>
-                <Actor id="45">
-                    <firstName>Pero</firstName>
-                    <lastName>Juričić</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="31">
-                    <firstName>Angus</firstName>
-                    <lastName>MacLane</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="51">
-            <Title>Baci se na pod</Title>
-            <Description>Posljednji trenuci zafrkancije, nježnosti i apsurda prije rastanka jedne obitelji. Dok se roditelji bave zamjeranjima i prebacivanjem krivnje, njihov šestogodišnji sin svoj svijet gradi kroz igru. Svatko ima svoju istinu, u čiju ćete povjerovati?
-Početak </Description>
-            <Duration>76</Duration>
-            <picturePath>assets\movies\1487056315.jpg</picturePath>
-            <Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-                <Genre id="10">
-                    <name>drama</name>
-                </Genre>
-                <Genre id="11">
-                    <name>obiteljski</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="5">
-                    <firstName>Slavko</firstName>
-                    <lastName>Sobin</lastName>
-                </Actor>
-                <Actor id="41">
-                    <firstName>Lana</firstName>
-                    <lastName>Meniga</lastName>
-                </Actor>
-                <Actor id="42">
-                    <firstName>Rakan</firstName>
-                    <lastName>Rushaidat</lastName>
-                </Actor>
-                <Actor id="43">
-                    <firstName>Hrvoje</firstName>
-                    <lastName>Klobučar</lastName>
-                </Actor>
-                <Actor id="44">
-                    <firstName>Slavica</firstName>
-                    <lastName>Knežević</lastName>
-                </Actor>
-                <Actor id="45">
-                    <firstName>Pero</firstName>
-                    <lastName>Juričić</lastName>
-                </Actor>
-                <Actor id="5">
-                    <firstName>Slavko</firstName>
-                    <lastName>Sobin</lastName>
-                </Actor>
-                <Actor id="41">
-                    <firstName>Lana</firstName>
-                    <lastName>Meniga</lastName>
-                </Actor>
-                <Actor id="42">
-                    <firstName>Rakan</firstName>
-                    <lastName>Rushaidat</lastName>
-                </Actor>
-                <Actor id="43">
-                    <firstName>Hrvoje</firstName>
-                    <lastName>Klobučar</lastName>
-                </Actor>
-                <Actor id="44">
-                    <firstName>Slavica</firstName>
-                    <lastName>Knežević</lastName>
-                </Actor>
-                <Actor id="45">
-                    <firstName>Pero</firstName>
-                    <lastName>Juričić</lastName>
-                </Actor>
-                <Actor id="5">
-                    <firstName>Slavko</firstName>
-                    <lastName>Sobin</lastName>
-                </Actor>
-                <Actor id="41">
-                    <firstName>Lana</firstName>
-                    <lastName>Meniga</lastName>
-                </Actor>
-                <Actor id="42">
-                    <firstName>Rakan</firstName>
-                    <lastName>Rushaidat</lastName>
-                </Actor>
-                <Actor id="43">
-                    <firstName>Hrvoje</firstName>
-                    <lastName>Klobučar</lastName>
-                </Actor>
-                <Actor id="44">
-                    <firstName>Slavica</firstName>
-                    <lastName>Knežević</lastName>
-                </Actor>
-                <Actor id="45">
-                    <firstName>Pero</firstName>
-                    <lastName>Juričić</lastName>
-                </Actor>
-                <Actor id="46">
-                    <firstName>Goran</firstName>
-                    <lastName>Bogdan</lastName>
-                </Actor>
-                <Actor id="47">
-                    <firstName>Nina</firstName>
-                    <lastName>Violić</lastName>
-                </Actor>
-                <Actor id="48">
-                    <firstName>Bruno</firstName>
-                    <lastName>Frketić</lastName>
-                </Actor>
-                <Actor id="49">
-                    <firstName>Lee</firstName>
-                    <lastName>Delong</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="31">
-                    <firstName>Angus</firstName>
-                    <lastName>MacLane</lastName>
-                </Director>
-                <Director id="31">
-                    <firstName>Angus</firstName>
-                    <lastName>MacLane</lastName>
-                </Director>
-                <Director id="31">
-                    <firstName>Angus</firstName>
-                    <lastName>MacLane</lastName>
-                </Director>
-                <Director id="50">
-                    <firstName>Nina</firstName>
-                    <lastName>Violić</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="52">
-            <Title>Belle: Zmaj i pjegava princeza</Title>
-            <Description>Suzu je sramežljiva srednjoškolka koja živi u ruralnom selu. Godinama je samo sjena same sebe. Ali kada uđe u &amp;quot;U&amp;quot;, masivni virtualni svijet, bježi u svoju online personu kao Belle, svjetski poznata pjevačica. Jednog dana njezin koncert prekida m</Description>
-            <Duration>121</Duration>
-            <picturePath>assets\movies\215986691.jpg</picturePath>
-            <Genre>
-                <Genre id="12">
-                    <name>animirana avantura</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="51">
-                    <firstName>Kaho</firstName>
-                    <lastName>Nakamura</lastName>
-                </Actor>
-                <Actor id="52">
-                    <firstName>Ryô</firstName>
-                    <lastName>Narita</lastName>
-                </Actor>
-                <Actor id="53">
-                    <firstName>Shôta</firstName>
-                    <lastName>Sometani</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="54">
-                    <firstName>Mamoru</firstName>
-                    <lastName>Hosoda</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="53">
-            <Title>Crni telefon</Title>
-            <Description>Redatelj Scott Derrickson vraća se svojim korijenima i ponovno surađuje s Blumhouseom u novom horor trileru.
-
-Finneyja Shawa, sramežljivog, ali pametnog 13-godišnjeg dječaka, otima sadistički ubojica i zarobljuje ga u zvučno izoliranom podrumu u kojemu vr</Description>
-            <Duration>102</Duration>
-            <picturePath>assets\movies\348150093.jpg</picturePath>
-            <Genre>
-                <Genre id="13">
-                    <name>horor</name>
-                </Genre>
-                <Genre id="6">
-                    <name>triler</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="55">
-                    <firstName>Ethan</firstName>
-                    <lastName>Hawke</lastName>
-                </Actor>
-                <Actor id="56">
-                    <firstName>James</firstName>
-                    <lastName>Ransone</lastName>
-                </Actor>
-                <Actor id="57">
-                    <firstName>Jeremy</firstName>
-                    <lastName>Davies</lastName>
-                </Actor>
-                <Actor id="58">
-                    <firstName>Madeleine</firstName>
-                    <lastName>McGraw</lastName>
-                </Actor>
-                <Actor id="59">
-                    <firstName>Mason</firstName>
-                    <lastName>Thames</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="60">
-                    <firstName>Scott</firstName>
-                    <lastName>Derrickson</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="54">
-            <Title>Crni telefon</Title>
-            <Description>Telefon ne radi. Ali zvoni. Reditelj Skot Derikson vraća se svojim korenima užasa i ponovo se spaja sa partnerima iz studija Blumhouse, sa novim horor trilerom. Finija Šoa, stidljivog, ali pametnog 13-godišnjeg dečaka, oteo je sadistički ubica i zarobio u</Description>
-            <Duration>102</Duration>
-            <picturePath>assets\movies\1038603207.jpg</picturePath>
-            <Genre>
-                <Genre id="13">
-                    <name>horor</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="55">
-                    <firstName>Ethan</firstName>
-                    <lastName>Hawke</lastName>
-                </Actor>
-                <Actor id="56">
-                    <firstName>James</firstName>
-                    <lastName>Ransone</lastName>
-                </Actor>
-                <Actor id="57">
-                    <firstName>Jeremy</firstName>
-                    <lastName>Davies</lastName>
-                </Actor>
-                <Actor id="58">
-                    <firstName>Madeleine</firstName>
-                    <lastName>McGraw</lastName>
-                </Actor>
-                <Actor id="59">
-                    <firstName>Mason</firstName>
-                    <lastName>Thames</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="60">
-                    <firstName>Scott</firstName>
-                    <lastName>Derrickson</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="55">
-            <Title>Elvis</Title>
-            <Description>Film istražuje život i glazbu neponovljivog Elvisa Presleyja, a sve kroz prizmu njegovog kompliciranog odnosa sa zagonetnim menadžerom, pukovnikom Tomom Parkerom (Hanks). Priča duboko zadire u složenu dinamiku njihova odnosa koja se proteže kroz 20 godina</Description>
-            <Duration>160</Duration>
-            <picturePath>assets\movies\2033657710.jpg</picturePath>
-            <Genre>
-                <Genre id="14">
-                    <name>biografski</name>
-                </Genre>
-                <Genre id="10">
-                    <name>drama</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="61">
-                    <firstName>Austin</firstName>
-                    <lastName>Butler</lastName>
-                </Actor>
-                <Actor id="62">
-                    <firstName>Tom</firstName>
-                    <lastName>Hanks</lastName>
-                </Actor>
-                <Actor id="63">
-                    <firstName>Olivia</firstName>
-                    <lastName>DeJonge</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="64">
-                    <firstName>Baz</firstName>
-                    <lastName>Luhrmann</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="56">
-            <Title>Elvis</Title>
-            <Description>Novi film vizionarskog i za nagradu Oskar nominovanog reditelja Baza Lurmana i studija Warner Bros. Pictures u kojoj glavne uloge nose Ostin Batler i oskarovac Tom Henks.
-Film istražuje muziku  i život neponovljivog Elvisa Prislija, a sve kroz prizmu njeg</Description>
-            <Duration>160</Duration>
-            <picturePath>assets\movies\1496076346.jpg</picturePath>
-            <Genre>
-                <Genre id="14">
-                    <name>biografski</name>
-                </Genre>
-                <Genre id="10">
-                    <name>drama</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="61">
-                    <firstName>Austin</firstName>
-                    <lastName>Butler</lastName>
-                </Actor>
-                <Actor id="62">
-                    <firstName>Tom</firstName>
-                    <lastName>Hanks</lastName>
-                </Actor>
-                <Actor id="63">
-                    <firstName>Olivia</firstName>
-                    <lastName>DeJonge</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="64">
-                    <firstName>Baz</firstName>
-                    <lastName>Luhrmann</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="57">
-            <Title>Crna lokacija</Title>
-            <Description>Policajci na strogo tajnoj lokaciji se u igri mačke i miša moraju boriti za vlastiti život.
-Bore se protiv Hatcheta, briljantnog i zloglasnog zatvorenika koji ih ubija jednog po jednog.
-Njegov misteriozni i smrtonosni plan ima dalekosežne i strašne poslje</Description>
-            <Duration>93</Duration>
-            <picturePath>assets\movies\1350964543.jpg</picturePath>
-            <Genre>
-                <Genre id="14">
-                    <name>biografski</name>
-                </Genre>
-                <Genre id="10">
-                    <name>drama</name>
-                </Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="6">
-                    <name>triler</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="61">
-                    <firstName>Austin</firstName>
-                    <lastName>Butler</lastName>
-                </Actor>
-                <Actor id="62">
-                    <firstName>Tom</firstName>
-                    <lastName>Hanks</lastName>
-                </Actor>
-                <Actor id="63">
-                    <firstName>Olivia</firstName>
-                    <lastName>DeJonge</lastName>
-                </Actor>
-                <Actor id="65">
-                    <firstName>Michelle</firstName>
-                    <lastName>Monaghan</lastName>
-                </Actor>
-                <Actor id="66">
-                    <firstName>Jason</firstName>
-                    <lastName>Clarke</lastName>
-                </Actor>
-                <Actor id="67">
-                    <firstName>Jai</firstName>
-                    <lastName>Courtney</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="64">
-                    <firstName>Baz</firstName>
-                    <lastName>Luhrmann</lastName>
-                </Director>
-                <Director id="68">
-                    <firstName>Sophia</firstName>
-                    <lastName>Banks</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="58">
-            <Title>Malci 2: Gruov početak - sinh</Title>
-            <Description>Ovog leta, najveća animirana franšiza svih vremena i globalni kulturni fenomen predstaviće nam do sada neispričanu priču “MALCI 2: GRUOV POČETAK”, o dvanaestogodišnjem dečaku koji mašta da postane najveći super-zlikovac na svetu.
-U jeku sedamdesetih godin</Description>
-            <Duration>90</Duration>
-            <picturePath>assets\movies\610128037.jpg</picturePath>
-            <Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-            </Genre>
-            <Actors/>
-            <Director>
-                <Director id="69">
-                    <firstName>Kyle</firstName>
-                    <lastName>Balda</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="59">
-            <Title>Malci 2: Kako je Gru postao Gru - sink</Title>
-            <Description>Ovog ljeta, mali žuta bića Malci, vraćaju se u kina! U drugom nastavku pratimo 12 godišnjeg Grua koji je na tragu da postane najveći zlikovac svih vremena a na tom putu svesrdno mu pomažu mali žuti prijatelji u drugom nastavku Malaca pod nazivom Malci 2: </Description>
-            <Duration>90</Duration>
-            <picturePath>assets\movies\1450150781.jpg</picturePath>
-            <Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-            </Genre>
-            <Actors/>
-            <Director>
-                <Director id="69">
-                    <firstName>Kyle</firstName>
-                    <lastName>Balda</lastName>
-                </Director>
-                <Director id="69">
-                    <firstName>Kyle</firstName>
-                    <lastName>Balda</lastName>
-                </Director>
-                <Director id="69">
-                    <firstName>Kyle</firstName>
-                    <lastName>Balda</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="60">
-            <Title>Pritisni play i voli ponovo</Title>
-            <Description>Laura i Harrison živjeli su savršenu romansu koja se temeljila na zajedničkoj ljubavi prema glazbi.
-Njihovu je idilu prekinula tragična nesreća, no Laura će dobiti priliku spasiti ljubav svog života kada otkrije da je moguće vratiti se u prošlost.
-Početak</Description>
-            <Duration>85</Duration>
-            <picturePath>assets\movies\1320694008.jpg</picturePath>
-            <Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-                <Genre id="9">
-                    <name>romantična drama</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="70">
-                    <firstName>Lewis</firstName>
-                    <lastName>Pullman</lastName>
-                </Actor>
-                <Actor id="71">
-                    <firstName>Clara</firstName>
-                    <lastName>Rugaard</lastName>
-                </Actor>
-                <Actor id="72">
-                    <firstName>Danny</firstName>
-                    <lastName>Glover</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="69">
-                    <firstName>Kyle</firstName>
-                    <lastName>Balda</lastName>
-                </Director>
-                <Director id="73">
-                    <firstName>Greg</firstName>
-                    <lastName>Björkman</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="61">
-            <Title>Pritisni play i voli ponovo</Title>
-            <Description>Izreka da vas pesma može vratiti u prošlost uskoro će postati stvarnost u romantičnoj drami u kojoj u glavnim ulogama gledamo Klaru Rugard, iz serije I Am Mother, i Luisa Pulmana iz mega hita Top Gun: Maverick.
-
-Laura i Harison su živeli savršenu romansu </Description>
-            <Duration>85</Duration>
-            <picturePath>assets\movies\548542756.jpg</picturePath>
-            <Genre>
-                <Genre id="15">
-                    <name>mjuzikl</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="70">
-                    <firstName>Lewis</firstName>
-                    <lastName>Pullman</lastName>
-                </Actor>
-                <Actor id="71">
-                    <firstName>Clara</firstName>
-                    <lastName>Rugaard</lastName>
-                </Actor>
-                <Actor id="72">
-                    <firstName>Danny</firstName>
-                    <lastName>Glover</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="73">
-                    <firstName>Greg</firstName>
-                    <lastName>Björkman</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="62">
-            <Title>Bergmanov otok</Title>
-            <Description>Par američkih filmaša, Chris (Vicky Krieps) i Tony (Tim Roth) tijekom ljeta se odluče povući na osamu na mistične Farske otoke. U ovoj divljini i prirodnom okruženju koje oduzima dah gdje je slavni redatelj Bergman živio i snimio neke od svojih najslavnij</Description>
-            <Duration>112</Duration>
-            <picturePath>assets\movies\705430357.jpg</picturePath>
-            <Genre>
-                <Genre id="9">
-                    <name>romantična drama</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="74">
-                    <firstName>Tim</firstName>
-                    <lastName>Roth</lastName>
-                </Actor>
-                <Actor id="75">
-                    <firstName>Mia</firstName>
-                    <lastName>Wasikowska</lastName>
-                </Actor>
-                <Actor id="76">
-                    <firstName>Vicky</firstName>
-                    <lastName>Krieps</lastName>
-                </Actor>
-                <Actor id="77">
-                    <firstName>Anders</firstName>
-                    <lastName>Danielsen</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="78">
-                    <firstName>Mia</firstName>
-                    <lastName>Hansen-Love</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="63">
-            <Title>Thor: Ljubav i grom</Title>
-            <Description>Thorovo umirovljenje prekida galaktički ubojica poznat kao Gorr the God Butcher (Christian Bale), koji traži istrebljenje bogova.
-Thor će morati tražiti pomoć kraljice Valkyrie, Korga i bivše djevojke Jane Foster, koja - na Thorovo iznenađenje - neobjašnj</Description>
-            <Duration>0</Duration>
-            <picturePath>assets\movies\1329149962.jpg</picturePath>
-            <Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="16">
-                    <name>avantura</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="79">
-                    <firstName>Chris</firstName>
-                    <lastName>Hemsworth</lastName>
-                </Actor>
-                <Actor id="80">
-                    <firstName>Natalie</firstName>
-                    <lastName>Portman</lastName>
-                </Actor>
-                <Actor id="81">
-                    <firstName>Tessa</firstName>
-                    <lastName>Thompson</lastName>
-                </Actor>
-                <Actor id="82">
-                    <firstName>Christian</firstName>
-                    <lastName>Bale</lastName>
-                </Actor>
-                <Actor id="83">
-                    <firstName>Taika</firstName>
-                    <lastName>Waititi</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="84">
-                    <firstName>Taika</firstName>
-                    <lastName>Waititi</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="64">
-            <Title>Tor: Ljubav i Grom</Title>
-            <Description>„Tor: Ljubav i grom“ iz studija Marvel pronalazi Boga groma na putovanju za razliku od bilo čega sa kojim se ikada suočio – u potrazi za unutrašnjim mirom. Ali Torovo penzionisanje prekida galaktički ubica poznat kao Gor Bog mesar, koji traži istrebljenje</Description>
-            <Duration>0</Duration>
-            <picturePath>assets\movies\2093823096.jpg</picturePath>
-            <Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="16">
-                    <name>avantura</name>
-                </Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="16">
-                    <name>avantura</name>
-                </Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="16">
-                    <name>avantura</name>
-                </Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="16">
-                    <name>avantura</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="79">
-                    <firstName>Chris</firstName>
-                    <lastName>Hemsworth</lastName>
-                </Actor>
-                <Actor id="80">
-                    <firstName>Natalie</firstName>
-                    <lastName>Portman</lastName>
-                </Actor>
-                <Actor id="81">
-                    <firstName>Tessa</firstName>
-                    <lastName>Thompson</lastName>
-                </Actor>
-                <Actor id="82">
-                    <firstName>Christian</firstName>
-                    <lastName>Bale</lastName>
-                </Actor>
-                <Actor id="83">
-                    <firstName>Taika</firstName>
-                    <lastName>Waititi</lastName>
-                </Actor>
-                <Actor id="79">
-                    <firstName>Chris</firstName>
-                    <lastName>Hemsworth</lastName>
-                </Actor>
-                <Actor id="80">
-                    <firstName>Natalie</firstName>
-                    <lastName>Portman</lastName>
-                </Actor>
-                <Actor id="81">
-                    <firstName>Tessa</firstName>
-                    <lastName>Thompson</lastName>
-                </Actor>
-                <Actor id="82">
-                    <firstName>Christian</firstName>
-                    <lastName>Bale</lastName>
-                </Actor>
-                <Actor id="83">
-                    <firstName>Taika</firstName>
-                    <lastName>Waititi</lastName>
-                </Actor>
-                <Actor id="79">
-                    <firstName>Chris</firstName>
-                    <lastName>Hemsworth</lastName>
-                </Actor>
-                <Actor id="80">
-                    <firstName>Natalie</firstName>
-                    <lastName>Portman</lastName>
-                </Actor>
-                <Actor id="81">
-                    <firstName>Tessa</firstName>
-                    <lastName>Thompson</lastName>
-                </Actor>
-                <Actor id="82">
-                    <firstName>Christian</firstName>
-                    <lastName>Bale</lastName>
-                </Actor>
-                <Actor id="83">
-                    <firstName>Taika</firstName>
-                    <lastName>Waititi</lastName>
-                </Actor>
-                <Actor id="79">
-                    <firstName>Chris</firstName>
-                    <lastName>Hemsworth</lastName>
-                </Actor>
-                <Actor id="80">
-                    <firstName>Natalie</firstName>
-                    <lastName>Portman</lastName>
-                </Actor>
-                <Actor id="81">
-                    <firstName>Tessa</firstName>
-                    <lastName>Thompson</lastName>
-                </Actor>
-                <Actor id="82">
-                    <firstName>Christian</firstName>
-                    <lastName>Bale</lastName>
-                </Actor>
-                <Actor id="83">
-                    <firstName>Taika</firstName>
-                    <lastName>Waititi</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="84">
-                    <firstName>Taika</firstName>
-                    <lastName>Waititi</lastName>
-                </Director>
-                <Director id="84">
-                    <firstName>Taika</firstName>
-                    <lastName>Waititi</lastName>
-                </Director>
-                <Director id="84">
-                    <firstName>Taika</firstName>
-                    <lastName>Waititi</lastName>
-                </Director>
-                <Director id="84">
-                    <firstName>Taika</firstName>
-                    <lastName>Waititi</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="65">
-            <Title>Ne</Title>
-            <Description>Dobitnik Oskara Džordan Pil filmovima „BEŽI” I „MI” pomerio je granice i redefinisao moderni horor. Sada, on pretvara letnji film u novi košmar, u ekspanzivnom epskom hororu „NE”.
-Film ponovo spaja Pila sa dobitnikom Oskara Danijelom Kalujom, kojem se pri</Description>
-            <Duration>0</Duration>
-            <picturePath>assets\movies\929256407.jpg</picturePath>
-            <Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="16">
-                    <name>avantura</name>
-                </Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="16">
-                    <name>avantura</name>
-                </Genre>
-                <Genre id="13">
-                    <name>horor</name>
-                </Genre>
-                <Genre id="17">
-                    <name>sf</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="79">
-                    <firstName>Chris</firstName>
-                    <lastName>Hemsworth</lastName>
-                </Actor>
-                <Actor id="80">
-                    <firstName>Natalie</firstName>
-                    <lastName>Portman</lastName>
-                </Actor>
-                <Actor id="81">
-                    <firstName>Tessa</firstName>
-                    <lastName>Thompson</lastName>
-                </Actor>
-                <Actor id="82">
-                    <firstName>Christian</firstName>
-                    <lastName>Bale</lastName>
-                </Actor>
-                <Actor id="83">
-                    <firstName>Taika</firstName>
-                    <lastName>Waititi</lastName>
-                </Actor>
-                <Actor id="79">
-                    <firstName>Chris</firstName>
-                    <lastName>Hemsworth</lastName>
-                </Actor>
-                <Actor id="80">
-                    <firstName>Natalie</firstName>
-                    <lastName>Portman</lastName>
-                </Actor>
-                <Actor id="81">
-                    <firstName>Tessa</firstName>
-                    <lastName>Thompson</lastName>
-                </Actor>
-                <Actor id="82">
-                    <firstName>Christian</firstName>
-                    <lastName>Bale</lastName>
-                </Actor>
-                <Actor id="83">
-                    <firstName>Taika</firstName>
-                    <lastName>Waititi</lastName>
-                </Actor>
-                <Actor id="85">
-                    <firstName>Daniel</firstName>
-                    <lastName>Kaluuya</lastName>
-                </Actor>
-                <Actor id="86">
-                    <firstName>Keke</firstName>
-                    <lastName>Palmer</lastName>
-                </Actor>
-                <Actor id="87">
-                    <firstName>Steven</firstName>
-                    <lastName>Yeun</lastName>
-                </Actor>
-                <Actor id="88">
-                    <firstName>Michael</firstName>
-                    <lastName>Wincott</lastName>
-                </Actor>
-                <Actor id="89">
-                    <firstName>Brandon</firstName>
-                    <lastName>Perea</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="84">
-                    <firstName>Taika</firstName>
-                    <lastName>Waititi</lastName>
-                </Director>
-                <Director id="84">
-                    <firstName>Taika</firstName>
-                    <lastName>Waititi</lastName>
-                </Director>
-                <Director id="90">
-                    <firstName>Jordan</firstName>
-                    <lastName>Peele</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="66">
-            <Title>DC Liga Superljubimaca - sinh</Title>
-            <Description>Ljubimce predvodi Supermenov voljeni pas Kripto. Njih dvojica su nerazdvojni prijatelji, koji dele super-moći i zajedno se bore protiv kriminala u Metropolisu.
-
-Kada Supermena i ostatak Lige pravde otmu, Kripto mora da uveri ofucanu ekipu iz skloništa za </Description>
-            <Duration>0</Duration>
-            <picturePath>assets\movies\1541129478.jpg</picturePath>
-            <Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-            </Genre>
-            <Actors/>
-            <Director>
-                <Director id="91">
-                    <firstName>Jared</firstName>
-                    <lastName>Stern</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="67">
-            <Title>DC Liga Super-ljubimaca - sink</Title>
-            <Description>Ljubimce predvodi Supermanov voljeni pas Krypto. Njih su dvojica nerazdvojni prijatelji, koji dijele super-moći i zajedno se bore protiv kriminala u Metropolisu.
-Kada Supermana i ostatak Lige pravde otmu, Krypto mora uvjeriti ofucanu ekipu iz skloništa za</Description>
-            <Duration>0</Duration>
-            <picturePath>assets\movies\142247104.jpg</picturePath>
-            <Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-            </Genre>
-            <Actors/>
-            <Director>
-                <Director id="91">
-                    <firstName>Jared</firstName>
-                    <lastName>Stern</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="68">
-            <Title>Avatar: Put vode</Title>
-            <Description>Džejk Sali živi sa svojom porodicom na planeti Pandori. Kada se vrati poznati neprijatelj koji pokušava da ih uništi, Džejk i Nejtiri se udružuju sa vojskom Navi naroda kako bi zaštitili svoju planetu.
-
-Početak prikazivanja: 15.12.2022</Description>
-            <Duration>0</Duration>
-            <picturePath>assets\movies\588727641.jpg</picturePath>
-            <Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="16">
-                    <name>avantura</name>
-                </Genre>
-                <Genre id="17">
-                    <name>sf</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="92">
-                    <firstName>Sam</firstName>
-                    <lastName>Worthington</lastName>
-                </Actor>
-                <Actor id="93">
-                    <firstName>Zoe</firstName>
-                    <lastName>Saldana</lastName>
-                </Actor>
-                <Actor id="94">
-                    <firstName>Giovanni</firstName>
-                    <lastName>Ribisi</lastName>
-                </Actor>
-                <Actor id="95">
-                    <firstName>Stephen</firstName>
-                    <lastName>Lang</lastName>
-                </Actor>
-                <Actor id="96">
-                    <firstName>Vin</firstName>
-                    <lastName>Diesel</lastName>
-                </Actor>
-                <Actor id="97">
-                    <firstName>Michelle</firstName>
-                    <lastName>Yeoh</lastName>
-                </Actor>
-                <Actor id="98">
-                    <firstName>Kate</firstName>
-                    <lastName>Winslet</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="99">
-                    <firstName>James</firstName>
-                    <lastName>Cameron</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="69">
-            <Title>Avatar: Put vode</Title>
-            <Description>Radnja filma „Avatar: Put vode“ odvija se više od jednog desetljeća nakon događaja iz prvog dijela.
-Otkad je odlučio trajno prenijeti ljudsku svijest u svoje tijelo Avatara i postati novi vođa naroda Na’vi, Jake Sully živi sa svojom obitelji na Pandori. O</Description>
-            <Duration>0</Duration>
-            <picturePath>assets\movies\17397269.jpg</picturePath>
-            <Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="16">
-                    <name>avantura</name>
-                </Genre>
-                <Genre id="17">
-                    <name>sf</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="92">
-                    <firstName>Sam</firstName>
-                    <lastName>Worthington</lastName>
-                </Actor>
-                <Actor id="93">
-                    <firstName>Zoe</firstName>
-                    <lastName>Saldana</lastName>
-                </Actor>
-                <Actor id="94">
-                    <firstName>Giovanni</firstName>
-                    <lastName>Ribisi</lastName>
-                </Actor>
-                <Actor id="95">
-                    <firstName>Stephen</firstName>
-                    <lastName>Lang</lastName>
-                </Actor>
-                <Actor id="96">
-                    <firstName>Vin</firstName>
-                    <lastName>Diesel</lastName>
-                </Actor>
-                <Actor id="97">
-                    <firstName>Michelle</firstName>
-                    <lastName>Yeoh</lastName>
-                </Actor>
-                <Actor id="98">
-                    <firstName>Kate</firstName>
-                    <lastName>Winslet</lastName>
-                </Actor>
-                <Actor id="100">
-                    <firstName>Sigourney</firstName>
-                    <lastName>Weaver</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="99">
-                    <firstName>James</firstName>
-                    <lastName>Cameron</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="70">
-            <Description>Radnja filma „Avatar: Put vode“ odvija se više od jednog desetljeća nakon događaja iz prvog dijela.
-Otkad je odlučio trajno prenijeti ljudsku svijest u svoje tijelo Avatara i postati novi vođa naroda Na’vi, Jake Sully živi sa svojom obitelji na Pandori. O</Description>
-            <Duration>0</Duration>
-            <Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="16">
-                    <name>avantura</name>
-                </Genre>
-                <Genre id="17">
-                    <name>sf</name>
-                </Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="16">
-                    <name>avantura</name>
-                </Genre>
-                <Genre id="17">
-                    <name>sf</name>
-                </Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="16">
-                    <name>avantura</name>
-                </Genre>
-                <Genre id="17">
-                    <name>sf</name>
-                </Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="16">
-                    <name>avantura</name>
-                </Genre>
-                <Genre id="17">
-                    <name>sf</name>
-                </Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="16">
-                    <name>avantura</name>
-                </Genre>
-                <Genre id="17">
-                    <name>sf</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="92">
-                    <firstName>Sam</firstName>
-                    <lastName>Worthington</lastName>
-                </Actor>
-                <Actor id="93">
-                    <firstName>Zoe</firstName>
-                    <lastName>Saldana</lastName>
-                </Actor>
-                <Actor id="94">
-                    <firstName>Giovanni</firstName>
-                    <lastName>Ribisi</lastName>
-                </Actor>
-                <Actor id="95">
-                    <firstName>Stephen</firstName>
-                    <lastName>Lang</lastName>
-                </Actor>
-                <Actor id="96">
-                    <firstName>Vin</firstName>
-                    <lastName>Diesel</lastName>
-                </Actor>
-                <Actor id="97">
-                    <firstName>Michelle</firstName>
-                    <lastName>Yeoh</lastName>
-                </Actor>
-                <Actor id="98">
-                    <firstName>Kate</firstName>
-                    <lastName>Winslet</lastName>
-                </Actor>
-                <Actor id="100">
-                    <firstName>Sigourney</firstName>
-                    <lastName>Weaver</lastName>
-                </Actor>
-                <Actor id="92">
-                    <firstName>Sam</firstName>
-                    <lastName>Worthington</lastName>
-                </Actor>
-                <Actor id="93">
-                    <firstName>Zoe</firstName>
-                    <lastName>Saldana</lastName>
-                </Actor>
-                <Actor id="94">
-                    <firstName>Giovanni</firstName>
-                    <lastName>Ribisi</lastName>
-                </Actor>
-                <Actor id="95">
-                    <firstName>Stephen</firstName>
-                    <lastName>Lang</lastName>
-                </Actor>
-                <Actor id="96">
-                    <firstName>Vin</firstName>
-                    <lastName>Diesel</lastName>
-                </Actor>
-                <Actor id="97">
-                    <firstName>Michelle</firstName>
-                    <lastName>Yeoh</lastName>
-                </Actor>
-                <Actor id="98">
-                    <firstName>Kate</firstName>
-                    <lastName>Winslet</lastName>
-                </Actor>
-                <Actor id="92">
-                    <firstName>Sam</firstName>
-                    <lastName>Worthington</lastName>
-                </Actor>
-                <Actor id="93">
-                    <firstName>Zoe</firstName>
-                    <lastName>Saldana</lastName>
-                </Actor>
-                <Actor id="94">
-                    <firstName>Giovanni</firstName>
-                    <lastName>Ribisi</lastName>
-                </Actor>
-                <Actor id="95">
-                    <firstName>Stephen</firstName>
-                    <lastName>Lang</lastName>
-                </Actor>
-                <Actor id="96">
-                    <firstName>Vin</firstName>
-                    <lastName>Diesel</lastName>
-                </Actor>
-                <Actor id="97">
-                    <firstName>Michelle</firstName>
-                    <lastName>Yeoh</lastName>
-                </Actor>
-                <Actor id="98">
-                    <firstName>Kate</firstName>
-                    <lastName>Winslet</lastName>
-                </Actor>
-                <Actor id="92">
-                    <firstName>Sam</firstName>
-                    <lastName>Worthington</lastName>
-                </Actor>
-                <Actor id="93">
-                    <firstName>Zoe</firstName>
-                    <lastName>Saldana</lastName>
-                </Actor>
-                <Actor id="94">
-                    <firstName>Giovanni</firstName>
-                    <lastName>Ribisi</lastName>
-                </Actor>
-                <Actor id="95">
-                    <firstName>Stephen</firstName>
-                    <lastName>Lang</lastName>
-                </Actor>
-                <Actor id="96">
-                    <firstName>Vin</firstName>
-                    <lastName>Diesel</lastName>
-                </Actor>
-                <Actor id="97">
-                    <firstName>Michelle</firstName>
-                    <lastName>Yeoh</lastName>
-                </Actor>
-                <Actor id="98">
-                    <firstName>Kate</firstName>
-                    <lastName>Winslet</lastName>
-                </Actor>
-                <Actor id="100">
-                    <firstName>Sigourney</firstName>
-                    <lastName>Weaver</lastName>
-                </Actor>
-                <Actor id="92">
-                    <firstName>Sam</firstName>
-                    <lastName>Worthington</lastName>
-                </Actor>
-                <Actor id="93">
-                    <firstName>Zoe</firstName>
-                    <lastName>Saldana</lastName>
-                </Actor>
-                <Actor id="94">
-                    <firstName>Giovanni</firstName>
-                    <lastName>Ribisi</lastName>
-                </Actor>
-                <Actor id="95">
-                    <firstName>Stephen</firstName>
-                    <lastName>Lang</lastName>
-                </Actor>
-                <Actor id="96">
-                    <firstName>Vin</firstName>
-                    <lastName>Diesel</lastName>
-                </Actor>
-                <Actor id="97">
-                    <firstName>Michelle</firstName>
-                    <lastName>Yeoh</lastName>
-                </Actor>
-                <Actor id="98">
-                    <firstName>Kate</firstName>
-                    <lastName>Winslet</lastName>
-                </Actor>
-                <Actor id="100">
-                    <firstName>Sigourney</firstName>
-                    <lastName>Weaver</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="99">
-                    <firstName>James</firstName>
-                    <lastName>Cameron</lastName>
-                </Director>
-                <Director id="99">
-                    <firstName>James</firstName>
-                    <lastName>Cameron</lastName>
-                </Director>
-                <Director id="99">
-                    <firstName>James</firstName>
-                    <lastName>Cameron</lastName>
-                </Director>
-                <Director id="99">
-                    <firstName>James</firstName>
-                    <lastName>Cameron</lastName>
-                </Director>
-                <Director id="99">
-                    <firstName>James</firstName>
-                    <lastName>Cameron</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="71">
+        <movie id="100">
             <Title>1-UP</Title>
             <Description>Ova neobično zabavna komedija prati V (Paris Berelc), natjecateljicu koja je impresivnim vještinama osvojila stipendiju za fakultet i mjesto u eSport timu u kojem dominiraju muškarci. V nije baš najbolje primljena od strane suigrača.  Međutim, igra se nas</Description>
-            <Duration>85</Duration>
-            <picturePath>assets\movies\1052055797.jpg</picturePath>
+            <Duration>100</Duration>
+            <picturePath>assets\movies\1309230901.jpg</picturePath>
             <Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="6">
-                    <name>triler</name>
-                </Genre>
-                <Genre id="2">
-                    <name>komedija</name>
-                </Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-                <Genre id="4">
-                    <name>animirani</name>
-                </Genre>
-                <Genre id="9">
-                    <name>romantična drama</name>
-                </Genre>
-                <Genre id="9">
-                    <name>romantična drama</name>
-                </Genre>
                 <Genre id="18">
                     <name>esport komedija</name>
                 </Genre>
             </Genre>
             <Actors>
-                <Actor id="65">
-                    <firstName>Michelle</firstName>
-                    <lastName>Monaghan</lastName>
-                </Actor>
-                <Actor id="66">
-                    <firstName>Jason</firstName>
-                    <lastName>Clarke</lastName>
-                </Actor>
-                <Actor id="67">
-                    <firstName>Jai</firstName>
-                    <lastName>Courtney</lastName>
-                </Actor>
-                <Actor id="23">
-                    <firstName>Audrey</firstName>
-                    <lastName>Lamy</lastName>
-                </Actor>
-                <Actor id="24">
-                    <firstName>François</firstName>
-                    <lastName>Cluzet</lastName>
-                </Actor>
-                <Actor id="25">
-                    <firstName>Chantal</firstName>
-                    <lastName>Neuwirth</lastName>
-                </Actor>
-                <Actor id="101">
-                    <firstName>Rene</firstName>
-                    <lastName>Bitorajac</lastName>
-                </Actor>
-                <Actor id="102">
-                    <firstName>Alen</firstName>
-                    <lastName>Šalinović</lastName>
-                </Actor>
-                <Actor id="103">
-                    <firstName>Mirela</firstName>
-                    <lastName>Brekalo</lastName>
-                </Actor>
-                <Actor id="104">
-                    <firstName>Ervin</firstName>
-                    <lastName>Baučić</lastName>
-                </Actor>
-                <Actor id="70">
-                    <firstName>Lewis</firstName>
-                    <lastName>Pullman</lastName>
-                </Actor>
-                <Actor id="71">
-                    <firstName>Clara</firstName>
-                    <lastName>Rugaard</lastName>
-                </Actor>
-                <Actor id="72">
-                    <firstName>Danny</firstName>
-                    <lastName>Glover</lastName>
-                </Actor>
-                <Actor id="70">
-                    <firstName>Lewis</firstName>
-                    <lastName>Pullman</lastName>
-                </Actor>
-                <Actor id="71">
-                    <firstName>Clara</firstName>
-                    <lastName>Rugaard</lastName>
-                </Actor>
-                <Actor id="72">
-                    <firstName>Danny</firstName>
-                    <lastName>Glover</lastName>
-                </Actor>
                 <Actor id="105">
                     <firstName>Paris</firstName>
                     <lastName>Berelc</lastName>
@@ -2007,63 +26,130 @@ Otkad je odlučio trajno prenijeti ljudsku svijest u svoje tijelo Avatara i post
                 </Actor>
             </Actors>
             <Director>
-                <Director id="68">
-                    <firstName>Sophia</firstName>
-                    <lastName>Banks</lastName>
-                </Director>
-                <Director id="26">
-                    <firstName>Louis-Julien</firstName>
-                    <lastName>Petit</lastName>
-                </Director>
-                <Director id="69">
-                    <firstName>Kyle</firstName>
-                    <lastName>Balda</lastName>
-                </Director>
-                <Director id="69">
-                    <firstName>Kyle</firstName>
-                    <lastName>Balda</lastName>
-                </Director>
-                <Director id="69">
-                    <firstName>Kyle</firstName>
-                    <lastName>Balda</lastName>
-                </Director>
-                <Director id="69">
-                    <firstName>Kyle</firstName>
-                    <lastName>Balda</lastName>
-                </Director>
-                <Director id="69">
-                    <firstName>Kyle</firstName>
-                    <lastName>Balda</lastName>
-                </Director>
-                <Director id="73">
-                    <firstName>Greg</firstName>
-                    <lastName>Björkman</lastName>
-                </Director>
-                <Director id="73">
-                    <firstName>Greg</firstName>
-                    <lastName>Björkman</lastName>
-                </Director>
                 <Director id="108">
                     <firstName>Kyle</firstName>
                     <lastName>Newman</lastName>
                 </Director>
             </Director>
         </movie>
-        <movie id="72">
-            <Title>Tor: Ljubav i grom</Title>
-            <Description>„Tor: Ljubav i grom“ iz studija Marvel pronalazi Boga groma na putovanju za razliku od bilo čega sa kojim se ikada suočio – u potrazi za unutrašnjim mirom. Ali Torovo penzionisanje prekida galaktički ubica poznat kao Gor Bog mesar, koji traži istrebljenje</Description>
-            <Duration>119</Duration>
-            <picturePath>assets\movies\777963868.jpg</picturePath>
+        <movie id="101">
+            <Title>Bergmanov otok</Title>
+            <Description>Par američkih filmaša, Chris (Vicky Krieps) i Tony (Tim Roth) tijekom ljeta se odluče povući na osamu na mistične Farske otoke. U ovoj divljini i prirodnom okruženju koje oduzima dah gdje je slavni redatelj Bergman živio i snimio neke od svojih najslavnij</Description>
+            <Duration>112</Duration>
+            <picturePath>assets\movies\1582925524.jpg</picturePath>
             <Genre>
                 <Genre id="9">
                     <name>romantična drama</name>
                 </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="74">
+                    <firstName>Tim</firstName>
+                    <lastName>Roth</lastName>
+                </Actor>
+                <Actor id="75">
+                    <firstName>Mia</firstName>
+                    <lastName>Wasikowska</lastName>
+                </Actor>
+                <Actor id="76">
+                    <firstName>Vicky</firstName>
+                    <lastName>Krieps</lastName>
+                </Actor>
+                <Actor id="77">
+                    <firstName>Anders</firstName>
+                    <lastName>Danielsen</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="78">
+                    <firstName>Mia</firstName>
+                    <lastName>Hansen-Love</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="102">
+            <Title>Oni</Title>
+            <Description>Posle lične tragedije, Harper (Džesi Bakli) povlači se potpuno sama u prelepo englesko mestašce, nadajući se da je tu pronašla mesto za izlečenje. Ali neko ili nešto iz okolne šume počinje da je progoni. Ovaj grozničavi novi horor film vizionarskog redite</Description>
+            <Duration>100</Duration>
+            <picturePath>assets\movies\103096443.jpg</picturePath>
+            <Genre>
+                <Genre id="13">
+                    <name>horor</name>
+                </Genre>
+                <Genre id="17">
+                    <name>sf</name>
+                </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="194">
+                    <firstName>Jessie</firstName>
+                    <lastName>Buckley</lastName>
+                </Actor>
+                <Actor id="195">
+                    <firstName>Rory</firstName>
+                    <lastName>Kinnear</lastName>
+                </Actor>
+                <Actor id="196">
+                    <firstName>Paapa</firstName>
+                    <lastName>Essiedu</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="197">
+                    <firstName>Alex</firstName>
+                    <lastName>Garland</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="103">
+            <Title>Thor: Ljubav i grom</Title>
+            <Description>Thorovo umirovljenje prekida galaktički ubojica poznat kao Gorr the God Butcher (Christian Bale), koji traži istrebljenje bogova.
+Thor će morati tražiti pomoć kraljice Valkyrie, Korga i bivše djevojke Jane Foster, koja - na Thorovo iznenađenje - neobjašnj</Description>
+            <Duration>119</Duration>
+            <picturePath>assets\movies\2068799902.jpg</picturePath>
+            <Genre>
                 <Genre id="1">
                     <name>akcija</name>
                 </Genre>
                 <Genre id="16">
                     <name>avantura</name>
                 </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="79">
+                    <firstName>Chris</firstName>
+                    <lastName>Hemsworth</lastName>
+                </Actor>
+                <Actor id="80">
+                    <firstName>Natalie</firstName>
+                    <lastName>Portman</lastName>
+                </Actor>
+                <Actor id="81">
+                    <firstName>Tessa</firstName>
+                    <lastName>Thompson</lastName>
+                </Actor>
+                <Actor id="82">
+                    <firstName>Christian</firstName>
+                    <lastName>Bale</lastName>
+                </Actor>
+                <Actor id="83">
+                    <firstName>Taika</firstName>
+                    <lastName>Waititi</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="84">
+                    <firstName>Taika</firstName>
+                    <lastName>Waititi</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="104">
+            <Title>Tor: Ljubav i grom</Title>
+            <Description>„Tor: Ljubav i grom“ iz studija Marvel pronalazi Boga groma na putovanju za razliku od bilo čega sa kojim se ikada suočio – u potrazi za unutrašnjim mirom. Ali Torovo penzionisanje prekida galaktički ubica poznat kao Gor Bog mesar, koji traži istrebljenje</Description>
+            <Duration>119</Duration>
+            <picturePath>assets\movies\1480831470.jpg</picturePath>
+            <Genre>
                 <Genre id="1">
                     <name>akcija</name>
                 </Genre>
@@ -2090,42 +176,6 @@ Otkad je odlučio trajno prenijeti ljudsku svijest u svoje tijelo Avatara i post
                 </Genre>
             </Genre>
             <Actors>
-                <Actor id="74">
-                    <firstName>Tim</firstName>
-                    <lastName>Roth</lastName>
-                </Actor>
-                <Actor id="75">
-                    <firstName>Mia</firstName>
-                    <lastName>Wasikowska</lastName>
-                </Actor>
-                <Actor id="76">
-                    <firstName>Vicky</firstName>
-                    <lastName>Krieps</lastName>
-                </Actor>
-                <Actor id="77">
-                    <firstName>Anders</firstName>
-                    <lastName>Danielsen</lastName>
-                </Actor>
-                <Actor id="79">
-                    <firstName>Chris</firstName>
-                    <lastName>Hemsworth</lastName>
-                </Actor>
-                <Actor id="80">
-                    <firstName>Natalie</firstName>
-                    <lastName>Portman</lastName>
-                </Actor>
-                <Actor id="81">
-                    <firstName>Tessa</firstName>
-                    <lastName>Thompson</lastName>
-                </Actor>
-                <Actor id="82">
-                    <firstName>Christian</firstName>
-                    <lastName>Bale</lastName>
-                </Actor>
-                <Actor id="83">
-                    <firstName>Taika</firstName>
-                    <lastName>Waititi</lastName>
-                </Actor>
                 <Actor id="79">
                     <firstName>Chris</firstName>
                     <lastName>Hemsworth</lastName>
@@ -2208,14 +258,6 @@ Otkad je odlučio trajno prenijeti ljudsku svijest u svoje tijelo Avatara i post
                 </Actor>
             </Actors>
             <Director>
-                <Director id="78">
-                    <firstName>Mia</firstName>
-                    <lastName>Hansen-Love</lastName>
-                </Director>
-                <Director id="84">
-                    <firstName>Taika</firstName>
-                    <lastName>Waititi</lastName>
-                </Director>
                 <Director id="84">
                     <firstName>Taika</firstName>
                     <lastName>Waititi</lastName>
@@ -2234,13 +276,11 @@ Otkad je odlučio trajno prenijeti ljudsku svijest u svoje tijelo Avatara i post
                 </Director>
             </Director>
         </movie>
-        <movie id="73">
-            <Title>Arturovo prokletstvo</Title>
-            <Description>Aleks je 18-godišnji mladić. Već godinama je veliki obožavalac sage o fantastičnom filmu Artur i Minimojs. Grupa prijatelja mu predlaže da odu i posete napuštenu kuću u kojoj je sniman film. Nisu ni svesni da će odlaskom tamo upasti u smrtonosnu zaveru.
-
-</Description>
-            <Duration>119</Duration>
-            <picturePath>assets\movies\547619146.jpg</picturePath>
+        <movie id="105">
+            <Title>Arthurovo prokletstvo</Title>
+            <Description>Alex je 18-godišnji mladić koji je godinama veliki obožavatelj sage o fantastičnom serijalu Arthur i Minimoys. Grupa prijatelja ga je za rođendan iznenadila prijedlogom da odu u napuštenu kuću u kojoj se snimao film. Nisu svjesni da će upasti u smrtonosnu</Description>
+            <Duration>87</Duration>
+            <picturePath>assets\movies\345878297.jpg</picturePath>
             <Genre>
                 <Genre id="1">
                     <name>akcija</name>
@@ -2327,11 +367,79 @@ Otkad je odlučio trajno prenijeti ljudsku svijest u svoje tijelo Avatara i post
                 </Director>
             </Director>
         </movie>
-        <movie id="74">
+        <movie id="106">
+            <Title>Arturovo prokletstvo</Title>
+            <Description>Aleks je 18-godišnji mladić. Već godinama je veliki obožavalac sage o fantastičnom filmu Artur i Minimojs. Grupa prijatelja mu predlaže da odu i posete napuštenu kuću u kojoj je sniman film. Nisu ni svesni da će odlaskom tamo upasti u smrtonosnu zaveru.
+
+</Description>
+            <Duration>87</Duration>
+            <picturePath>assets\movies\1619428440.jpg</picturePath>
+            <Genre>
+                <Genre id="13">
+                    <name>horor</name>
+                </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="109">
+                    <firstName>Vadim</firstName>
+                    <lastName>Agid</lastName>
+                </Actor>
+                <Actor id="110">
+                    <firstName>Lola</firstName>
+                    <lastName>Andreoni</lastName>
+                </Actor>
+                <Actor id="111">
+                    <firstName>Mathieu</firstName>
+                    <lastName>Berger</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="112">
+                    <firstName>Barthélémy</firstName>
+                    <lastName>Grossmann</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="107">
+            <Title>Boksač: Život Jema Belchera</Title>
+            <Description>Godine 1800. Jem Belcher postao je najmlađi svjetski prvak ikada. Ovo je njegova nevjerojatna istinita priča.
+Na prijelazu iz 19. stoljeća društvene promjene i napredak polako su se širili diljem Britanskog Carstva. U gradovima i selima u Engleskoj je još</Description>
+            <Duration>107</Duration>
+            <picturePath>assets\movies\2023091662.jpg</picturePath>
+            <Genre>
+                <Genre id="24">
+                    <name>biografija</name>
+                </Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="198">
+                    <firstName>Matt</firstName>
+                    <lastName>Hookings</lastName>
+                </Actor>
+                <Actor id="199">
+                    <firstName>Ray</firstName>
+                    <lastName>Winstone</lastName>
+                </Actor>
+                <Actor id="200">
+                    <firstName>Russell</firstName>
+                    <lastName>Crowe</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="201">
+                    <firstName>Daniel</firstName>
+                    <lastName>Graham</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="108">
             <Title>Mračna lokacija</Title>
             <Description>Policajci na strogo tajnoj lokaciji se u igri mačke i miša moraju da se bore za sopstveni život. Bore se protiv Hačeta, briljantnog i zloglasnog zatvorenika koji ih ubija jednog po jednog. Njegov misteriozni i smrtonosni plan ima dalekosežne i strašne pos</Description>
             <Duration>92</Duration>
-            <picturePath>assets\movies\114310555.jpg</picturePath>
+            <picturePath>assets\movies\136743778.jpg</picturePath>
             <Genre>
                 <Genre id="1">
                     <name>akcija</name>
@@ -2361,55 +469,162 @@ Otkad je odlučio trajno prenijeti ljudsku svijest u svoje tijelo Avatara i post
                 </Director>
             </Director>
         </movie>
-        <movie id="75">
-            <Title>Hot Seat</Title>
-            <Description>Bivši haker je primoran da provaljuje u bankarske institucije na visokom nivou, dok drugi čovek mora da pokuša da prodre u zgradu zarobljenu minama da bi mladića skinuo sa vruće stolice.
-Početak prikazivanja: 21.7.2022</Description>
-            <Duration>99</Duration>
-            <picturePath>assets\movies\1067628552.jpg</picturePath>
+        <movie id="109">
+            <Title>Uhljeb</Title>
+            <Description>Vincent Peltier ima život kakav je oduvijek želio i posao iz snova. Kao državni službenik, proveo je život uživajući u blagodatima svog statusa. Upravo će zato, kada nova reformistička vlada odluči smanjiti birokraciju, Vincent odbiti dobrovoljno otići. M</Description>
+            <Duration>83</Duration>
+            <picturePath>assets\movies\102355813.jpg</picturePath>
             <Genre>
-                <Genre id="6">
-                    <name>triler</name>
+                <Genre id="2">
+                    <name>komedija</name>
                 </Genre>
             </Genre>
             <Actors>
-                <Actor id="14">
-                    <firstName>Mel</firstName>
-                    <lastName>Gibson</lastName>
+                <Actor id="202">
+                    <firstName>Jérôme</firstName>
+                    <lastName>Commandeur</lastName>
                 </Actor>
-                <Actor id="113">
-                    <firstName>Sam</firstName>
-                    <lastName>Asghari</lastName>
+                <Actor id="203">
+                    <firstName>Pascale</firstName>
+                    <lastName>Arbillot</lastName>
                 </Actor>
-                <Actor id="114">
-                    <firstName>Shannen</firstName>
-                    <lastName>Doherty</lastName>
-                </Actor>
-                <Actor id="115">
-                    <firstName>Kevin</firstName>
-                    <lastName>Dillon</lastName>
+                <Actor id="204">
+                    <firstName>Malik</firstName>
+                    <lastName>Bentalha</lastName>
                 </Actor>
             </Actors>
             <Director>
-                <Director id="116">
-                    <firstName>James</firstName>
-                    <lastName>Cullen</lastName>
+                <Director id="205">
+                    <firstName>Jérôme</firstName>
+                    <lastName>Commandeur</lastName>
                 </Director>
             </Director>
         </movie>
-        <movie id="76">
-            <Title>DC Liga Super-ljubimaca - titl</Title>
-            <Description>Ljubimce predvodi Supermanov voljeni pas Krypto. Njih su dvojica nerazdvojni prijatelji, koji dijele super-moći i zajedno se bore protiv kriminala u Metropolisu.
-Kada Supermana i ostatak Lige pravde otmu, Krypto mora uvjeriti ofucanu ekipu iz skloništa za</Description>
-            <Duration>100</Duration>
-            <picturePath>assets\movies\2026738940.jpg</picturePath>
+        <movie id="110">
+            <Title>Autoput spasa</Title>
+            <Description>Vozač kamiona je primoran da prokrijumčari nedozvoljeni teret kako bi spasila svog brata od smrtonosne zatvorske bande. Sa FBI operativcima koji su joj na tragu, Sali je u problemu kada se ispostavi da je poslednji paket tinejdžerka.
+
+Početak prikazivanja</Description>
+            <Duration>0</Duration>
+            <picturePath>assets\movies\1159085730.jpg</picturePath>
+            <Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="128">
+                    <firstName>Juliette</firstName>
+                    <lastName>Binoche</lastName>
+                </Actor>
+                <Actor id="129">
+                    <firstName>Morgan</firstName>
+                    <lastName>Freeman</lastName>
+                </Actor>
+                <Actor id="130">
+                    <firstName>Cameron</firstName>
+                    <lastName>Monaghan</lastName>
+                </Actor>
+                <Actor id="131">
+                    <firstName>Frank</firstName>
+                    <lastName>Grillo</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="132">
+                    <firstName>Anna</firstName>
+                    <lastName>Gutto</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="111">
+            <Title>DC Liga Superljubimaca - sinh</Title>
+            <Description>Ljubimce predvodi Supermenov voljeni pas Kripto. Njih dvojica su nerazdvojni prijatelji, koji dele super-moći i zajedno se bore protiv kriminala u Metropolisu.
+
+Kada Supermena i ostatak Lige pravde otmu, Kripto mora da uveri ofucanu ekipu iz skloništa za </Description>
+            <Duration>106</Duration>
+            <picturePath>assets\movies\296211629.jpg</picturePath>
             <Genre>
                 <Genre id="4">
                     <name>animirani</name>
                 </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="206">
+                    <firstName>Aleksandar</firstName>
+                    <lastName>Aca</lastName>
+                </Actor>
+                <Actor id="207">
+                    <firstName>Tamara</firstName>
+                    <lastName>Krcunović</lastName>
+                </Actor>
+                <Actor id="208">
+                    <firstName>Marko</firstName>
+                    <lastName>Mrđenović</lastName>
+                </Actor>
+                <Actor id="30">
+                    <firstName>Marko</firstName>
+                    <lastName>Marković</lastName>
+                </Actor>
+                <Actor id="209">
+                    <firstName>Miloš</firstName>
+                    <lastName>Timotijević</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="91">
+                    <firstName>Jared</firstName>
+                    <lastName>Stern</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="112">
+            <Title>DC Liga Super-ljubimaca - sink</Title>
+            <Description>Ljubimce predvodi Supermanov voljeni pas Krypto. Njih su dvojica nerazdvojni prijatelji, koji dijele super-moći i zajedno se bore protiv kriminala u Metropolisu.
+Kada Supermana i ostatak Lige pravde otmu, Krypto mora uvjeriti ofucanu ekipu iz skloništa za</Description>
+            <Duration>106</Duration>
+            <picturePath>assets\movies\1759870294.jpg</picturePath>
+            <Genre>
                 <Genre id="4">
                     <name>animirani</name>
                 </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="210">
+                    <firstName>Ivan</firstName>
+                    <lastName>Vukelić</lastName>
+                </Actor>
+                <Actor id="43">
+                    <firstName>Hrvoje</firstName>
+                    <lastName>Klobučar</lastName>
+                </Actor>
+                <Actor id="211">
+                    <firstName>Nikica</firstName>
+                    <lastName>Viličić</lastName>
+                </Actor>
+                <Actor id="212">
+                    <firstName>Goran</firstName>
+                    <lastName>Malus</lastName>
+                </Actor>
+                <Actor id="213">
+                    <firstName>Ivan</firstName>
+                    <lastName>Đuričić</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="91">
+                    <firstName>Jared</firstName>
+                    <lastName>Stern</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="113">
+            <Title>DC Liga Super-ljubimaca - titl</Title>
+            <Description>Ljubimce predvodi Supermanov voljeni pas Krypto. Njih su dvojica nerazdvojni prijatelji, koji dijele super-moći i zajedno se bore protiv kriminala u Metropolisu.
+Kada Supermana i ostatak Lige pravde otmu, Krypto mora uvjeriti ofucanu ekipu iz skloništa za</Description>
+            <Duration>106</Duration>
+            <picturePath>assets\movies\192882988.jpg</picturePath>
+            <Genre>
                 <Genre id="4">
                     <name>animirani</name>
                 </Genre>
@@ -2449,23 +664,15 @@ Kada Supermana i ostatak Lige pravde otmu, Krypto mora uvjeriti ofucanu ekipu iz
                     <firstName>Jared</firstName>
                     <lastName>Stern</lastName>
                 </Director>
-                <Director id="91">
-                    <firstName>Jared</firstName>
-                    <lastName>Stern</lastName>
-                </Director>
-                <Director id="91">
-                    <firstName>Jared</firstName>
-                    <lastName>Stern</lastName>
-                </Director>
             </Director>
         </movie>
-        <movie id="77">
+        <movie id="114">
             <Title>DC Liga Superljubimaca - titl</Title>
             <Description>Ljubimce predvodi Supermenov voljeni pas Kripto. Njih dvojica su nerazdvojni prijatelji, koji dele super-moći i zajedno se bore protiv kriminala u Metropolisu.
 
 Kada Supermena i ostatak Lige pravde otmu, Kripto mora da uveri ofucanu ekipu iz skloništa za </Description>
-            <Duration>100</Duration>
-            <picturePath>assets\movies\1929423460.jpg</picturePath>
+            <Duration>106</Duration>
+            <picturePath>assets\movies\1839165004.jpg</picturePath>
             <Genre>
                 <Genre id="4">
                     <name>animirani</name>
@@ -2508,11 +715,11 @@ Kada Supermena i ostatak Lige pravde otmu, Kripto mora da uveri ofucanu ekipu iz
                 </Director>
             </Director>
         </movie>
-        <movie id="78">
+        <movie id="115">
             <Title>Maigret</Title>
             <Description>Filmska adaptacija proslavljenog krimića Georgesa Simenona, s inspektorom Maigretom, istražiteljem pariške policije kojeg utjelovljuje legendarni Gerard Depardieu. Simenonov neodoljivi retro stil podsjetit će nas s nostalgijom na još jednu omiljenu slavnu</Description>
-            <Duration>100</Duration>
-            <picturePath>assets\movies\255923811.jpg</picturePath>
+            <Duration>89</Duration>
+            <picturePath>assets\movies\1880400386.jpg</picturePath>
             <Genre>
                 <Genre id="4">
                     <name>animirani</name>
@@ -2531,6 +738,46 @@ Kada Supermena i ostatak Lige pravde otmu, Kripto mora da uveri ofucanu ekipu iz
                 </Genre>
             </Genre>
             <Actors>
+                <Actor id="206">
+                    <firstName>Aleksandar</firstName>
+                    <lastName>Aca</lastName>
+                </Actor>
+                <Actor id="207">
+                    <firstName>Tamara</firstName>
+                    <lastName>Krcunović</lastName>
+                </Actor>
+                <Actor id="208">
+                    <firstName>Marko</firstName>
+                    <lastName>Mrđenović</lastName>
+                </Actor>
+                <Actor id="30">
+                    <firstName>Marko</firstName>
+                    <lastName>Marković</lastName>
+                </Actor>
+                <Actor id="209">
+                    <firstName>Miloš</firstName>
+                    <lastName>Timotijević</lastName>
+                </Actor>
+                <Actor id="210">
+                    <firstName>Ivan</firstName>
+                    <lastName>Vukelić</lastName>
+                </Actor>
+                <Actor id="43">
+                    <firstName>Hrvoje</firstName>
+                    <lastName>Klobučar</lastName>
+                </Actor>
+                <Actor id="211">
+                    <firstName>Nikica</firstName>
+                    <lastName>Viličić</lastName>
+                </Actor>
+                <Actor id="212">
+                    <firstName>Goran</firstName>
+                    <lastName>Malus</lastName>
+                </Actor>
+                <Actor id="213">
+                    <firstName>Ivan</firstName>
+                    <lastName>Đuričić</lastName>
+                </Actor>
                 <Actor id="117">
                     <firstName>Dwayne</firstName>
                     <lastName>Johnson</lastName>
@@ -2623,48 +870,11 @@ Kada Supermena i ostatak Lige pravde otmu, Kripto mora da uveri ofucanu ekipu iz
                 </Director>
             </Director>
         </movie>
-        <movie id="79">
-            <Title>Paradise Highway</Title>
-            <Description>Vozač kamiona je primoran da prokrijumčari nedozvoljeni teret kako bi spasila svog brata od smrtonosne zatvorske bande. Sa FBI operativcima koji su joj na tragu, Sali je u problemu kada se ispostavi da je poslednji paket tinejdžerka.
-
-Početak prikazivanja</Description>
-            <Duration>0</Duration>
-            <picturePath>assets\movies\1476874928.jpg</picturePath>
-            <Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-            </Genre>
-            <Actors>
-                <Actor id="128">
-                    <firstName>Juliette</firstName>
-                    <lastName>Binoche</lastName>
-                </Actor>
-                <Actor id="129">
-                    <firstName>Morgan</firstName>
-                    <lastName>Freeman</lastName>
-                </Actor>
-                <Actor id="130">
-                    <firstName>Cameron</firstName>
-                    <lastName>Monaghan</lastName>
-                </Actor>
-                <Actor id="131">
-                    <firstName>Frank</firstName>
-                    <lastName>Grillo</lastName>
-                </Actor>
-            </Actors>
-            <Director>
-                <Director id="132">
-                    <firstName>Anna</firstName>
-                    <lastName>Gutto</lastName>
-                </Director>
-            </Director>
-        </movie>
-        <movie id="80">
+        <movie id="116">
             <Title>Ring opstanka</Title>
             <Description>Film Ring Opstanka (The Survivor) istinita je priča o Harryu Haftu, boksaču motiviranog ljubavlju prema ženi da preživi nezamislive strahote njemačkih koncentracijskih logora. SS časnik prisiljava Harryja na borbe do smrti protiv kolega zatvorenika u jezi</Description>
             <Duration>129</Duration>
-            <picturePath>assets\movies\356314932.jpg</picturePath>
+            <picturePath>assets\movies\1512731626.jpg</picturePath>
             <Genre>
                 <Genre id="14">
                     <name>biografski</name>
@@ -2694,11 +904,50 @@ Početak prikazivanja</Description>
                 </Director>
             </Director>
         </movie>
-        <movie id="81">
+        <movie id="117">
+            <Title>Autocesta spasa</Title>
+            <Description>Sally (Juliette Binoche) je vozačica kamiona koja živi za tri stvari: sebe, cestu i svog zatvorenog brata Dennisa (Frank Grillo). Ta povezanost brata i sestre prouzročila je njezinu umiješanost u krijumčarenje ilegalnog tereta kako bi spasila brata od zat</Description>
+            <Duration>0</Duration>
+            <picturePath>assets\movies\851597576.jpg</picturePath>
+            <Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+                <Genre id="5">
+                    <name>krimi</name>
+                </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="128">
+                    <firstName>Juliette</firstName>
+                    <lastName>Binoche</lastName>
+                </Actor>
+                <Actor id="129">
+                    <firstName>Morgan</firstName>
+                    <lastName>Freeman</lastName>
+                </Actor>
+                <Actor id="130">
+                    <firstName>Cameron</firstName>
+                    <lastName>Monaghan</lastName>
+                </Actor>
+                <Actor id="131">
+                    <firstName>Frank</firstName>
+                    <lastName>Grillo</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="132">
+                    <firstName>Anna</firstName>
+                    <lastName>Gutto</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="118">
             <Title>Belfast</Title>
-            <Description>Početak prikazivanja: 4.8.2022</Description>
+            <Description>Život radničke klase u Belfastu 1960-ih, vojni sukobi, prve simpatije, glazba i filmovi - neki su od glavnih motiva u ovoj poluautobiografskoj priči filmaša Kennetha Branagha.
+Ovim ljubavnim pismom rodnom gradu Branagh je osvojio svog prvog zlatnog kipića</Description>
             <Duration>98</Duration>
-            <picturePath>assets\movies\263694445.jpg</picturePath>
+            <picturePath>assets\movies\1510267642.jpg</picturePath>
             <Genre>
                 <Genre id="10">
                     <name>drama</name>
@@ -2733,11 +982,11 @@ Početak prikazivanja</Description>
                 </Director>
             </Director>
         </movie>
-        <movie id="82">
+        <movie id="119">
             <Title>Brzina metka</Title>
             <Description>U filmu Brzina Metka Bred Pit se pojavljuje kao Bubamara - baksuzni profesionalni ubica odlučan da ovog puta na mirniji način obavi svoj posao budući da je previše prethodnih pokušaja pošlo po zlu. Sudbina, kako to obično biva, ima druge planove jer Bubam</Description>
-            <Duration>0</Duration>
-            <picturePath>assets\movies\1416249833.jpg</picturePath>
+            <Duration>152</Duration>
+            <picturePath>assets\movies\814894742.jpg</picturePath>
             <Genre>
                 <Genre id="1">
                     <name>akcija</name>
@@ -2788,11 +1037,11 @@ Početak prikazivanja</Description>
                 </Director>
             </Director>
         </movie>
-        <movie id="83">
+        <movie id="120">
             <Title>Brzina metka</Title>
             <Description>U filmu Brzina metka Brad Pitt glumi Bubamaru (Ladybug), nesretnog ubojicu koji je odlučio obavljati svoj posao na mirniji način nakon što su neke misije pošle po zlu. Ipak, sudbina može imati drugačije planove jer Bubamaru nova misija dovodi u sukob sa s</Description>
-            <Duration>0</Duration>
-            <picturePath>assets\movies\1862484712.jpg</picturePath>
+            <Duration>152</Duration>
+            <picturePath>assets\movies\1862113115.jpg</picturePath>
             <Genre>
                 <Genre id="1">
                     <name>akcija</name>
@@ -2843,11 +1092,11 @@ Početak prikazivanja</Description>
                 </Director>
             </Director>
         </movie>
-        <movie id="84">
+        <movie id="121">
             <Title>100% vuk - sinh</Title>
             <Description>Ovo je priča o 100% vuku Frediju, nasledniku ponosne porodične loze vukodlaka. Uveren da će postati najstrašniji vukodlak ikad, Fredi ostaje u šoku kada na svoj 14. rođendan njegova prva bitka pođe po zlu, pretvarajući ga u divlju pudlicu. Stariji članovi</Description>
             <Duration>96</Duration>
-            <picturePath>assets\movies\1399789073.jpg</picturePath>
+            <picturePath>assets\movies\1407900659.jpg</picturePath>
             <Genre>
                 <Genre id="1">
                     <name>akcija</name>
@@ -2991,27 +1240,89 @@ Početak prikazivanja</Description>
                 </Director>
             </Director>
         </movie>
-        <movie id="85">
-            <Title>Nikako</Title>
-            <Description>Dobitnik Oskara redatelj Jordan Peele je 2017. godine redefinirao horor žanr sa sada već kultnim filmom Bježi!, a ovog ljeta će nas dobro prestrašiti njegov najnoviji režijski pothvat Nikako (Nope).
-Priča filma je bazirana na istinitim događajima i prati </Description>
+        <movie id="122">
+            <Title>Mesto usijanja</Title>
+            <Description>Bivši haker je primoran da provaljuje u bankarske institucije na visokom nivou, dok drugi čovek mora da pokuša da prodre u zgradu zarobljenu minama da bi mladića skinuo sa vruće stolice.
+Početak prikazivanja: 11.8.2022</Description>
+            <Duration>99</Duration>
+            <picturePath>assets\movies\2038948379.jpg</picturePath>
+            <Genre>
+                <Genre id="6">
+                    <name>triler</name>
+                </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="14">
+                    <firstName>Mel</firstName>
+                    <lastName>Gibson</lastName>
+                </Actor>
+                <Actor id="113">
+                    <firstName>Sam</firstName>
+                    <lastName>Asghari</lastName>
+                </Actor>
+                <Actor id="114">
+                    <firstName>Shannen</firstName>
+                    <lastName>Doherty</lastName>
+                </Actor>
+                <Actor id="115">
+                    <firstName>Kevin</firstName>
+                    <lastName>Dillon</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="116">
+                    <firstName>James</firstName>
+                    <lastName>Cullen</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="123">
+            <Title>Mjesto usijanja</Title>
+            <Description>Film prati Wallacea Reeda, bivšeg veterana Odjela za protueksplozijsku zaštitu koji juri u gradski park u kojem je upravo eksplodirala bomba, stvarajući masovnu paniku. U obližnjoj se zgradi  nalazi superhaker Orlando. Sjedi na eksplozivnoj napravi postav</Description>
+            <Duration>99</Duration>
+            <picturePath>assets\movies\2074944960.jpg</picturePath>
+            <Genre>
+                <Genre id="6">
+                    <name>triler</name>
+                </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="14">
+                    <firstName>Mel</firstName>
+                    <lastName>Gibson</lastName>
+                </Actor>
+                <Actor id="113">
+                    <firstName>Sam</firstName>
+                    <lastName>Asghari</lastName>
+                </Actor>
+                <Actor id="114">
+                    <firstName>Shannen</firstName>
+                    <lastName>Doherty</lastName>
+                </Actor>
+                <Actor id="115">
+                    <firstName>Kevin</firstName>
+                    <lastName>Dillon</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="116">
+                    <firstName>James</firstName>
+                    <lastName>Cullen</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="124">
+            <Title>Ne</Title>
+            <Description>Dobitnik Oskara Džordan Pil filmovima „BEŽI” I „MI” pomerio je granice i redefinisao moderni horor. Sada, on pretvara letnji film u novi košmar, u ekspanzivnom epskom hororu „NE”.
+Film ponovo spaja Pila sa dobitnikom Oskara Danijelom Kalujom, kojem se pri</Description>
             <Duration>135</Duration>
-            <picturePath>assets\movies\215598682.jpg</picturePath>
+            <picturePath>assets\movies\687319359.jpg</picturePath>
             <Genre>
                 <Genre id="13">
                     <name>horor</name>
                 </Genre>
                 <Genre id="17">
                     <name>sf</name>
-                </Genre>
-                <Genre id="13">
-                    <name>horor</name>
-                </Genre>
-                <Genre id="17">
-                    <name>sf</name>
-                </Genre>
-                <Genre id="20">
-                    <name>epski horor</name>
                 </Genre>
             </Genre>
             <Actors>
@@ -3035,6 +1346,32 @@ Priča filma je bazirana na istinitim događajima i prati </Description>
                     <firstName>Brandon</firstName>
                     <lastName>Perea</lastName>
                 </Actor>
+            </Actors>
+            <Director>
+                <Director id="90">
+                    <firstName>Jordan</firstName>
+                    <lastName>Peele</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="125">
+            <Title>Nikako</Title>
+            <Description>Dobitnik Oskara redatelj Jordan Peele je 2017. godine redefinirao horor žanr sa sada već kultnim filmom Bježi!, a ovog ljeta će nas dobro prestrašiti njegov najnoviji režijski pothvat Nikako (Nope).
+Priča filma je bazirana na istinitim događajima i prati </Description>
+            <Duration>135</Duration>
+            <picturePath>assets\movies\838981746.jpg</picturePath>
+            <Genre>
+                <Genre id="13">
+                    <name>horor</name>
+                </Genre>
+                <Genre id="17">
+                    <name>sf</name>
+                </Genre>
+                <Genre id="20">
+                    <name>epski horor</name>
+                </Genre>
+            </Genre>
+            <Actors>
                 <Actor id="85">
                     <firstName>Daniel</firstName>
                     <lastName>Kaluuya</lastName>
@@ -3085,30 +1422,20 @@ Priča filma je bazirana na istinitim događajima i prati </Description>
                     <firstName>Jordan</firstName>
                     <lastName>Peele</lastName>
                 </Director>
-                <Director id="90">
-                    <firstName>Jordan</firstName>
-                    <lastName>Peele</lastName>
-                </Director>
             </Director>
         </movie>
-        <movie id="86">
-            <Title>Ajkula ljudožder</Title>
-            <Description>Nakon nesreće tokom njihovog odmora na rajskom ostrvu, grupu prijatelja uhodi velika ajkula.
-Početak prikazivanja: 18.8.2022</Description>
-            <Duration>135</Duration>
-            <picturePath>assets\movies\1768833413.jpg</picturePath>
+        <movie id="126">
+            <Title>Tuljani specijalci - sink</Title>
+            <Description>Nakon što je izgubio svoju najbolju prijateljicu, neustrašivi tuljan Quinn okuplja nestašnu ekipu koja će morskim psima uzvratiti udarac, angažirajući iskusnog ratnika Claggarta i njegov vojni um koji će mu pomoći u obuci njihovih prijatelja tuljana.
+Quin</Description>
+            <Duration>101</Duration>
+            <picturePath>assets\movies\1378504055.jpg</picturePath>
             <Genre>
                 <Genre id="20">
                     <name>epski horor</name>
                 </Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="6">
-                    <name>triler</name>
-                </Genre>
-                <Genre id="13">
-                    <name>horor</name>
+                <Genre id="4">
+                    <name>animirani</name>
                 </Genre>
             </Genre>
             <Actors>
@@ -3132,6 +1459,40 @@ Početak prikazivanja: 18.8.2022</Description>
                     <firstName>Brandon</firstName>
                     <lastName>Perea</lastName>
                 </Actor>
+            </Actors>
+            <Director>
+                <Director id="90">
+                    <firstName>Jordan</firstName>
+                    <lastName>Peele</lastName>
+                </Director>
+                <Director id="214">
+                    <firstName>Greig</firstName>
+                    <lastName>Cameron</lastName>
+                </Director>
+                <Director id="215">
+                    <firstName>Kane</firstName>
+                    <lastName>Croudace</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="127">
+            <Title>Ajkula ljudožder</Title>
+            <Description>Nakon nesreće tokom njihovog odmora na rajskom ostrvu, grupu prijatelja uhodi velika ajkula.
+Početak prikazivanja: 18.8.2022</Description>
+            <Duration>0</Duration>
+            <picturePath>assets\movies\1080894099.jpg</picturePath>
+            <Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+                <Genre id="6">
+                    <name>triler</name>
+                </Genre>
+                <Genre id="13">
+                    <name>horor</name>
+                </Genre>
+            </Genre>
+            <Actors>
                 <Actor id="153">
                     <firstName>Shane</firstName>
                     <lastName>West</lastName>
@@ -3146,22 +1507,53 @@ Početak prikazivanja: 18.8.2022</Description>
                 </Actor>
             </Actors>
             <Director>
-                <Director id="90">
-                    <firstName>Jordan</firstName>
-                    <lastName>Peele</lastName>
-                </Director>
                 <Director id="156">
                     <firstName>Justin</firstName>
                     <lastName>Lee</lastName>
                 </Director>
             </Director>
         </movie>
-        <movie id="87">
+        <movie id="128">
+            <Title>Morski pas ljudožder</Title>
+            <Description>Nakon nesreće tijekom njihovog odmora na rajskom otoku, grupu prijatelja proganja veliki morski pas – ljudožder.
+Početak prikazivanja: 18.8.2022</Description>
+            <Duration>0</Duration>
+            <picturePath>assets\movies\1096952248.jpg</picturePath>
+            <Genre>
+                <Genre id="13">
+                    <name>horor</name>
+                </Genre>
+                <Genre id="6">
+                    <name>triler</name>
+                </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="153">
+                    <firstName>Shane</firstName>
+                    <lastName>West</lastName>
+                </Actor>
+                <Actor id="154">
+                    <firstName>Nicky</firstName>
+                    <lastName>Whelan</lastName>
+                </Actor>
+                <Actor id="155">
+                    <firstName>Jeff</firstName>
+                    <lastName>Fahey</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="156">
+                    <firstName>Justin</firstName>
+                    <lastName>Lee</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="129">
             <Title>Zvijer</Title>
             <Description>Idris Elba glumi u najnapetijem trileru ovog ljeta čija priča prati obitelj koja postane lovina bijesnog lava.
 Elba glumi doktora Natea Danielsa, udovca koji svoje kćeri odvede na putovanje u Južnu Afriku nedugo nakon što je njihova majka preminula. Putov</Description>
             <Duration>0</Duration>
-            <picturePath>assets\movies\758000356.jpg</picturePath>
+            <picturePath>assets\movies\1187984212.jpg</picturePath>
             <Genre>
                 <Genre id="6">
                     <name>triler</name>
@@ -3192,17 +1584,36 @@ Elba glumi doktora Natea Danielsa, udovca koji svoje kćeri odvede na putovanje 
                 </Director>
             </Director>
         </movie>
-        <movie id="88">
+        <movie id="130">
             <Title>After: Posle srećnog kraja</Title>
             <Description>Dok se pojavljuje šokantna istina o porodicama para, dvoje ljubavnika otkrivaju da se ne razlikuju toliko jedno od drugog. Tesa više nije ona slatka, jednostavna, dobra devojka kakva je bila kada je upoznala Hardina - kao što je on okrutni, ćudljivi dečko</Description>
             <Duration>119</Duration>
-            <picturePath>assets\movies\1530091829.jpg</picturePath>
+            <picturePath>assets\movies\477739351.jpg</picturePath>
             <Genre>
+                <Genre id="6">
+                    <name>triler</name>
+                </Genre>
                 <Genre id="9">
                     <name>romantična drama</name>
                 </Genre>
             </Genre>
             <Actors>
+                <Actor id="157">
+                    <firstName>Idris</firstName>
+                    <lastName>Elba</lastName>
+                </Actor>
+                <Actor id="158">
+                    <firstName>Sharlto</firstName>
+                    <lastName>Copley</lastName>
+                </Actor>
+                <Actor id="159">
+                    <firstName>Iyana</firstName>
+                    <lastName>Halley</lastName>
+                </Actor>
+                <Actor id="160">
+                    <firstName>Leah</firstName>
+                    <lastName>Sava</lastName>
+                </Actor>
                 <Actor id="162">
                     <firstName>Josephine</firstName>
                     <lastName>Langford</lastName>
@@ -3217,17 +1628,21 @@ Elba glumi doktora Natea Danielsa, udovca koji svoje kćeri odvede na putovanje 
                 </Actor>
             </Actors>
             <Director>
+                <Director id="161">
+                    <firstName>Baltasar</firstName>
+                    <lastName>Kormákur</lastName>
+                </Director>
                 <Director id="165">
                     <firstName>Castille</firstName>
                     <lastName>Landon</lastName>
                 </Director>
             </Director>
         </movie>
-        <movie id="89">
+        <movie id="131">
             <Title>Poslije svega: Zauvijek sretni</Title>
             <Description>Ljubav Tesse i Hardina oduvijek je bila komplicirana, život im se pretvorio u vrtlog strasti, ljubavi i dramatičnih preokreta. Tvrdoglavo su se borili za ljubav, odbijajući poslušati čak i najdobronamjernije savjete, uvjereni da njihova ljubav ne priznaje</Description>
             <Duration>119</Duration>
-            <picturePath>assets\movies\412871603.jpg</picturePath>
+            <picturePath>assets\movies\1550954569.jpg</picturePath>
             <Genre>
                 <Genre id="21">
                     <name>ljubavna drama</name>
@@ -3254,13 +1669,44 @@ Elba glumi doktora Natea Danielsa, udovca koji svoje kćeri odvede na putovanje 
                 </Director>
             </Director>
         </movie>
-        <movie id="90">
+        <movie id="132">
+            <Title>Slijepi putnik</Title>
+            <Description>Radnja se usredotočuje na upornu i problematičnu mladu ženu koja nasljeđuje luksuznu jahtu od svog otuđenog oca. Za jahtu su zainteresirani i kriminalci koji  upadaju na brod. Nesposobna pobjeći i zarobljena na jahti na otvorenom moru, plijen postaje lova</Description>
+            <Duration>0</Duration>
+            <picturePath>assets\movies\963985531.jpg</picturePath>
+            <Genre>
+                <Genre id="6">
+                    <name>triler</name>
+                </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="166">
+                    <firstName>Patrick</firstName>
+                    <lastName>Schwarzenegger</lastName>
+                </Actor>
+                <Actor id="106">
+                    <firstName>Ruby</firstName>
+                    <lastName>Rose</lastName>
+                </Actor>
+                <Actor id="131">
+                    <firstName>Frank</firstName>
+                    <lastName>Grillo</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="167">
+                    <firstName>Declan</firstName>
+                    <lastName>Whitebloom</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="133">
             <Title>Zver</Title>
             <Description>Ponekad je šuštanje u žbunju zaista čudovište.
  
 U novom, uznemirujućem trileru Idris Elba (Paklene ulice- Hobs i Šo, Odred otpisanih) glumi oca koga, zajedno sa njegove dve ćerke, progoni ogromni lav odmetnik, u nameri da dokaže da u savani može biti sam</Description>
             <Duration>0</Duration>
-            <picturePath>assets\movies\513074846.jpg</picturePath>
+            <picturePath>assets\movies\1377909420.jpg</picturePath>
             <Genre>
                 <Genre id="6">
                     <name>triler</name>
@@ -3291,18 +1737,37 @@ U novom, uznemirujućem trileru Idris Elba (Paklene ulice- Hobs i Šo, Odred otp
                 </Director>
             </Director>
         </movie>
-        <movie id="91">
+        <movie id="134">
             <Title>Stowaway</Title>
             <Description>Uporna devojka se trudi da preživi na svojoj luksuznoj jahti, kada su u toku žurke trojica lopova upala i preuzela kormilo. 
 Početak prikazivanja: 1.9.2022</Description>
             <Duration>0</Duration>
-            <picturePath>assets\movies\1601339132.jpg</picturePath>
+            <picturePath>assets\movies\1360572444.jpg</picturePath>
             <Genre>
+                <Genre id="6">
+                    <name>triler</name>
+                </Genre>
                 <Genre id="6">
                     <name>triler</name>
                 </Genre>
             </Genre>
             <Actors>
+                <Actor id="157">
+                    <firstName>Idris</firstName>
+                    <lastName>Elba</lastName>
+                </Actor>
+                <Actor id="158">
+                    <firstName>Sharlto</firstName>
+                    <lastName>Copley</lastName>
+                </Actor>
+                <Actor id="159">
+                    <firstName>Iyana</firstName>
+                    <lastName>Halley</lastName>
+                </Actor>
+                <Actor id="160">
+                    <firstName>Leah</firstName>
+                    <lastName>Sava</lastName>
+                </Actor>
                 <Actor id="166">
                     <firstName>Patrick</firstName>
                     <lastName>Schwarzenegger</lastName>
@@ -3317,18 +1782,22 @@ Početak prikazivanja: 1.9.2022</Description>
                 </Actor>
             </Actors>
             <Director>
+                <Director id="161">
+                    <firstName>Baltasar</firstName>
+                    <lastName>Kormákur</lastName>
+                </Director>
                 <Director id="167">
                     <firstName>Declan</firstName>
                     <lastName>Whitebloom</lastName>
                 </Director>
             </Director>
         </movie>
-        <movie id="92">
+        <movie id="135">
             <Title>Three Thousand Years of Longing</Title>
             <Description>Usamljena naučnica, na putovanju u Istanbul, otkriva Džina koji joj nudi tri želje u zamenu za svoju slobodu.
 Početak prikazivanja: 1.9.2022</Description>
             <Duration>108</Duration>
-            <picturePath>assets\movies\1063638798.jpg</picturePath>
+            <picturePath>assets\movies\2062731505.jpg</picturePath>
             <Genre>
                 <Genre id="10">
                     <name>drama</name>
@@ -3357,11 +1826,67 @@ Početak prikazivanja: 1.9.2022</Description>
                 </Director>
             </Director>
         </movie>
-        <movie id="93">
+        <movie id="136">
+            <Title>Vatreno srce - sink</Title>
+            <Description>Šesnaestogodišnja Georgia Nolan želi krenuti stopama svog oca i sanja o tome da bude prva vatrogaskinja na svijetu.
+Kad misteriozni piroman počne paliti seriju podmetnutih požara po Broadwayu, njujorški vatrogasci počinju misteriozno nestajati. Gradonačel</Description>
+            <Duration>92</Duration>
+            <picturePath>assets\movies\1864276028.jpg</picturePath>
+            <Genre>
+                <Genre id="4">
+                    <name>animirani</name>
+                </Genre>
+            </Genre>
+            <Actors/>
+            <Director>
+                <Director id="216">
+                    <firstName>Theodore</firstName>
+                    <lastName>Ty</lastName>
+                </Director>
+                <Director id="217">
+                    <firstName>Laurent</firstName>
+                    <lastName>Zeitoun</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="137">
+            <Title>Kung Fu Zohra</Title>
+            <Description>Uvjerena da će je razvod zauvijek odvojiti od kćeri, Zohra se ne može natjerati da napusti muža, unatoč njegovom nasilnom ponašanju. U tišini trpi njegove udarce, ali sve se mijenja kada upozna Chang Sue.
+
+Zohra je u početku zadovoljna svojim brakom s Oma</Description>
+            <Duration>100</Duration>
+            <picturePath>assets\movies\504305558.jpg</picturePath>
+            <Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="218">
+                    <firstName>Sabrina</firstName>
+                    <lastName>Ouazani</lastName>
+                </Actor>
+                <Actor id="219">
+                    <firstName>Ramzy</firstName>
+                    <lastName>Bedia</lastName>
+                </Actor>
+                <Actor id="220">
+                    <firstName>Eye</firstName>
+                    <lastName>Haidara</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="221">
+                    <firstName>Mabrouk</firstName>
+                    <lastName>El</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="138">
             <Title>Salemovo</Title>
             <Description>Salemovo je mali grad u Novoj Engleskoj okovan silama mraka, grad koji postoji samo u piščevoj mašti. Kao i u mnogim drugim takvim gradovima &amp;ndash; koji imaju svoju mračnu prošlost &amp;ndash; i u njemu među meštanima kolaju tajni tračevi, dešavaju se neobič</Description>
             <Duration>0</Duration>
-            <picturePath>assets\movies\130888882.jpg</picturePath>
+            <picturePath>assets\movies\17853704.jpg</picturePath>
             <Genre>
                 <Genre id="13">
                     <name>horor</name>
@@ -3388,14 +1913,14 @@ Početak prikazivanja: 1.9.2022</Description>
                 </Director>
             </Director>
         </movie>
-        <movie id="94">
+        <movie id="139">
             <Title>Distant</Title>
             <Description>Film prati rudara asteroida koji, nakon pada na vanzemaljsku planetu, mora da se probije preko surovog terena, uz nestašicu kiseonika i lov čudnih bića, do jedinog preostalog preživelog..&amp;nbsp;
 
 &amp;nbsp;
 Početak prikazivanja: 15.9.2022</Description>
             <Duration>0</Duration>
-            <picturePath>assets\movies\1297640398.jpg</picturePath>
+            <picturePath>assets\movies\1039809672.jpg</picturePath>
             <Genre>
                 <Genre id="17">
                     <name>sf</name>
@@ -3433,11 +1958,11 @@ Početak prikazivanja: 15.9.2022</Description>
                 </Director>
             </Director>
         </movie>
-        <movie id="95">
+        <movie id="140">
             <Title>Pad</Title>
             <Description>Za najbolje drugarice Beki i Hanter, život se svodi na savladavanje strahova i pomeranje granica. Ali nakon što se popnu 2000 stopa do vrha udaljenog, napuštenog radio tornja, ostaju nasukane bez ikakve mogućnosti povratka na zemlju. Sada će njihove struč</Description>
             <Duration>0</Duration>
-            <picturePath>assets\movies\64972810.jpg</picturePath>
+            <picturePath>assets\movies\958561331.jpg</picturePath>
             <Genre>
                 <Genre id="6">
                     <name>triler</name>
@@ -3468,11 +1993,11 @@ Početak prikazivanja: 15.9.2022</Description>
                 </Director>
             </Director>
         </movie>
-        <movie id="96">
+        <movie id="141">
             <Title>Ne brini, draga</Title>
             <Description>Alis i Džek imaju sreće što žive u idealizovanoj zajednici „Viktorija“, eksperimentalnom kompanijskom gradu u kom žive muškarci koji rade za tajni projekat „Viktorija“ i njihove porodice. Društveni optimizam iz 1950-ih koji je zastupao njihov izvršni dire</Description>
             <Duration>0</Duration>
-            <picturePath>assets\movies\54249174.jpg</picturePath>
+            <picturePath>assets\movies\273983218.jpg</picturePath>
             <Genre>
                 <Genre id="6">
                     <name>triler</name>
@@ -3507,11 +2032,11 @@ Početak prikazivanja: 15.9.2022</Description>
                 </Director>
             </Director>
         </movie>
-        <movie id="97">
+        <movie id="142">
             <Title>Put oko sveta za 80 dana - sinh</Title>
             <Description>Paspartu je mlad i učeni marmozet koji sanja da postane istraživač. Jednog dana, on upoznaje Fileja, nepromišljenog i pohlepnog žabca, koji želi da se opkladi da će oploviti svet za 80 dana i zaradite 10 miliona školjki u tom procesu. Iskoristivši priliku</Description>
             <Duration>82</Duration>
-            <picturePath>assets\movies\1138024219.jpg</picturePath>
+            <picturePath>assets\movies\713218680.jpg</picturePath>
             <Genre>
                 <Genre id="4">
                     <name>animirani</name>
@@ -3525,14 +2050,14 @@ Početak prikazivanja: 15.9.2022</Description>
                 </Director>
             </Director>
         </movie>
-        <movie id="98">
+        <movie id="143">
             <Title>The Good House</Title>
             <Description>Život agentkinje za nekretnine u Novoj Engleskoj Hildi Gud počinje da se raspliće kada se ponovo poveže sa svojim starim iskrama iz Njujorka.
 Zasnovano na knjizi The Good House spisateljice En Liri.
 
 Početak prikazivanja: 29.9.2022</Description>
             <Duration>114</Duration>
-            <picturePath>assets\movies\522631810.jpg</picturePath>
+            <picturePath>assets\movies\163827761.jpg</picturePath>
             <Genre>
                 <Genre id="2">
                     <name>komedija</name>
@@ -3566,10 +2091,406 @@ Početak prikazivanja: 29.9.2022</Description>
                 </Director>
             </Director>
         </movie>
-        <movie id="99">
+        <movie id="144">
+            <Title>Black Adam</Title>
+            <Description>DC i Warner Bros. predstavljaju novog antiheroja čiju će glavnu ulogu preuzeti legendarni The Rock. Black Adam je Johnsonov veliki projekt koji svaki glumac doživi jednom u životu.
+Gotovo 5.000 godina nakon što je dobio sve moći egipatskih bogova te isto </Description>
+            <Duration>0</Duration>
+            <picturePath>assets\movies\940123778.jpg</picturePath>
+            <Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+                <Genre id="17">
+                    <name>sf</name>
+                </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="117">
+                    <firstName>Dwayne</firstName>
+                    <lastName>Johnson</lastName>
+                </Actor>
+                <Actor id="222">
+                    <firstName>Sarah</firstName>
+                    <lastName>Shahi</lastName>
+                </Actor>
+                <Actor id="223">
+                    <firstName>Noah</firstName>
+                    <lastName>Centineo</lastName>
+                </Actor>
+                <Actor id="224">
+                    <firstName>Pierce</firstName>
+                    <lastName>Brosnan</lastName>
+                </Actor>
+                <Actor id="225">
+                    <firstName>Aldis</firstName>
+                    <lastName>Hodge</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="226">
+                    <firstName>Jaume</firstName>
+                    <lastName>Collet-Serra</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="145">
+            <Title>Crni Adam</Title>
+            <Description>DC i Warner Bros. predstavljaju novog antiheroja čiju će glavnu ulogu preuzeti legendarni The Rock. Crni Adam je Džonsonov veliki projekt koji svaki glumac doživi jednom u životu.
+Gotovo 5.000 godina nakon što je dobio sve moći egipatskih bogova i isto ta</Description>
+            <Duration>0</Duration>
+            <picturePath>assets\movies\68181817.jpg</picturePath>
+            <Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+                <Genre id="17">
+                    <name>sf</name>
+                </Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+                <Genre id="17">
+                    <name>sf</name>
+                </Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+                <Genre id="16">
+                    <name>avantura</name>
+                </Genre>
+                <Genre id="17">
+                    <name>sf</name>
+                </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="117">
+                    <firstName>Dwayne</firstName>
+                    <lastName>Johnson</lastName>
+                </Actor>
+                <Actor id="222">
+                    <firstName>Sarah</firstName>
+                    <lastName>Shahi</lastName>
+                </Actor>
+                <Actor id="223">
+                    <firstName>Noah</firstName>
+                    <lastName>Centineo</lastName>
+                </Actor>
+                <Actor id="224">
+                    <firstName>Pierce</firstName>
+                    <lastName>Brosnan</lastName>
+                </Actor>
+                <Actor id="225">
+                    <firstName>Aldis</firstName>
+                    <lastName>Hodge</lastName>
+                </Actor>
+                <Actor id="117">
+                    <firstName>Dwayne</firstName>
+                    <lastName>Johnson</lastName>
+                </Actor>
+                <Actor id="222">
+                    <firstName>Sarah</firstName>
+                    <lastName>Shahi</lastName>
+                </Actor>
+                <Actor id="223">
+                    <firstName>Noah</firstName>
+                    <lastName>Centineo</lastName>
+                </Actor>
+                <Actor id="224">
+                    <firstName>Pierce</firstName>
+                    <lastName>Brosnan</lastName>
+                </Actor>
+                <Actor id="225">
+                    <firstName>Aldis</firstName>
+                    <lastName>Hodge</lastName>
+                </Actor>
+                <Actor id="117">
+                    <firstName>Dwayne</firstName>
+                    <lastName>Johnson</lastName>
+                </Actor>
+                <Actor id="222">
+                    <firstName>Sarah</firstName>
+                    <lastName>Shahi</lastName>
+                </Actor>
+                <Actor id="223">
+                    <firstName>Noah</firstName>
+                    <lastName>Centineo</lastName>
+                </Actor>
+                <Actor id="224">
+                    <firstName>Pierce</firstName>
+                    <lastName>Brosnan</lastName>
+                </Actor>
+                <Actor id="225">
+                    <firstName>Aldis</firstName>
+                    <lastName>Hodge</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="226">
+                    <firstName>Jaume</firstName>
+                    <lastName>Collet-Serra</lastName>
+                </Director>
+                <Director id="226">
+                    <firstName>Jaume</firstName>
+                    <lastName>Collet-Serra</lastName>
+                </Director>
+                <Director id="226">
+                    <firstName>Jaume</firstName>
+                    <lastName>Collet-Serra</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="146">
+            <Title>Black Panther: Wakanda Zauvijek</Title>
+            <Description>Nastavak filma Black Panther iz 2018. godine koji je diljem svijeta zaradio preko $1.34 milijarde dolara. Film je oduševio kritičare i publiku, a na Rotten Tomatoes drži 96%. Uz to, film je osvojio i tri Oscara, za najbolju originalnu glazbu, najbolji diz</Description>
+            <Duration>0</Duration>
+            <picturePath>assets\movies\1722229649.jpg</picturePath>
+            <Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+                <Genre id="16">
+                    <name>avantura</name>
+                </Genre>
+                <Genre id="17">
+                    <name>sf</name>
+                </Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+                <Genre id="16">
+                    <name>avantura</name>
+                </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="117">
+                    <firstName>Dwayne</firstName>
+                    <lastName>Johnson</lastName>
+                </Actor>
+                <Actor id="222">
+                    <firstName>Sarah</firstName>
+                    <lastName>Shahi</lastName>
+                </Actor>
+                <Actor id="223">
+                    <firstName>Noah</firstName>
+                    <lastName>Centineo</lastName>
+                </Actor>
+                <Actor id="224">
+                    <firstName>Pierce</firstName>
+                    <lastName>Brosnan</lastName>
+                </Actor>
+                <Actor id="225">
+                    <firstName>Aldis</firstName>
+                    <lastName>Hodge</lastName>
+                </Actor>
+                <Actor id="227">
+                    <firstName>Martin</firstName>
+                    <lastName>Freeman</lastName>
+                </Actor>
+                <Actor id="228">
+                    <firstName>Letitia</firstName>
+                    <lastName>Wright</lastName>
+                </Actor>
+                <Actor id="229">
+                    <firstName>Angela</firstName>
+                    <lastName>Bassett</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="226">
+                    <firstName>Jaume</firstName>
+                    <lastName>Collet-Serra</lastName>
+                </Director>
+                <Director id="230">
+                    <firstName>Ryan</firstName>
+                    <lastName>Coogler</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="147">
+            <Title>Avatar: Put vode</Title>
             <Description>Radnja filma „Avatar: Put vode“ odvija se više od jednog desetljeća nakon događaja iz prvog dijela.
 Otkad je odlučio trajno prenijeti ljudsku svijest u svoje tijelo Avatara i postati novi vođa naroda Na’vi, Jake Sully živi sa svojom obitelji na Pandori. O</Description>
             <Duration>0</Duration>
+            <picturePath>assets\movies\931189397.jpg</picturePath>
+            <Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+                <Genre id="16">
+                    <name>avantura</name>
+                </Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+                <Genre id="16">
+                    <name>avantura</name>
+                </Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+                <Genre id="16">
+                    <name>avantura</name>
+                </Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+                <Genre id="16">
+                    <name>avantura</name>
+                </Genre>
+                <Genre id="17">
+                    <name>sf</name>
+                </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="227">
+                    <firstName>Martin</firstName>
+                    <lastName>Freeman</lastName>
+                </Actor>
+                <Actor id="228">
+                    <firstName>Letitia</firstName>
+                    <lastName>Wright</lastName>
+                </Actor>
+                <Actor id="229">
+                    <firstName>Angela</firstName>
+                    <lastName>Bassett</lastName>
+                </Actor>
+                <Actor id="227">
+                    <firstName>Martin</firstName>
+                    <lastName>Freeman</lastName>
+                </Actor>
+                <Actor id="228">
+                    <firstName>Letitia</firstName>
+                    <lastName>Wright</lastName>
+                </Actor>
+                <Actor id="229">
+                    <firstName>Angela</firstName>
+                    <lastName>Bassett</lastName>
+                </Actor>
+                <Actor id="227">
+                    <firstName>Martin</firstName>
+                    <lastName>Freeman</lastName>
+                </Actor>
+                <Actor id="228">
+                    <firstName>Letitia</firstName>
+                    <lastName>Wright</lastName>
+                </Actor>
+                <Actor id="229">
+                    <firstName>Angela</firstName>
+                    <lastName>Bassett</lastName>
+                </Actor>
+                <Actor id="92">
+                    <firstName>Sam</firstName>
+                    <lastName>Worthington</lastName>
+                </Actor>
+                <Actor id="93">
+                    <firstName>Zoe</firstName>
+                    <lastName>Saldana</lastName>
+                </Actor>
+                <Actor id="94">
+                    <firstName>Giovanni</firstName>
+                    <lastName>Ribisi</lastName>
+                </Actor>
+                <Actor id="95">
+                    <firstName>Stephen</firstName>
+                    <lastName>Lang</lastName>
+                </Actor>
+                <Actor id="96">
+                    <firstName>Vin</firstName>
+                    <lastName>Diesel</lastName>
+                </Actor>
+                <Actor id="97">
+                    <firstName>Michelle</firstName>
+                    <lastName>Yeoh</lastName>
+                </Actor>
+                <Actor id="98">
+                    <firstName>Kate</firstName>
+                    <lastName>Winslet</lastName>
+                </Actor>
+                <Actor id="100">
+                    <firstName>Sigourney</firstName>
+                    <lastName>Weaver</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="230">
+                    <firstName>Ryan</firstName>
+                    <lastName>Coogler</lastName>
+                </Director>
+                <Director id="230">
+                    <firstName>Ryan</firstName>
+                    <lastName>Coogler</lastName>
+                </Director>
+                <Director id="230">
+                    <firstName>Ryan</firstName>
+                    <lastName>Coogler</lastName>
+                </Director>
+                <Director id="99">
+                    <firstName>James</firstName>
+                    <lastName>Cameron</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="148">
+            <Title>Avatar: Put vode</Title>
+            <Description>Džejk Sali živi sa svojom porodicom na planeti Pandori. Kada se vrati poznati neprijatelj koji pokušava da ih uništi, Džejk i Nejtiri se udružuju sa vojskom Navi naroda kako bi zaštitili svoju planetu.
+
+Početak prikazivanja: 15.12.2022</Description>
+            <Duration>0</Duration>
+            <picturePath>assets\movies\1432105288.jpg</picturePath>
+            <Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+                <Genre id="16">
+                    <name>avantura</name>
+                </Genre>
+                <Genre id="17">
+                    <name>sf</name>
+                </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="92">
+                    <firstName>Sam</firstName>
+                    <lastName>Worthington</lastName>
+                </Actor>
+                <Actor id="93">
+                    <firstName>Zoe</firstName>
+                    <lastName>Saldana</lastName>
+                </Actor>
+                <Actor id="94">
+                    <firstName>Giovanni</firstName>
+                    <lastName>Ribisi</lastName>
+                </Actor>
+                <Actor id="95">
+                    <firstName>Stephen</firstName>
+                    <lastName>Lang</lastName>
+                </Actor>
+                <Actor id="96">
+                    <firstName>Vin</firstName>
+                    <lastName>Diesel</lastName>
+                </Actor>
+                <Actor id="97">
+                    <firstName>Michelle</firstName>
+                    <lastName>Yeoh</lastName>
+                </Actor>
+                <Actor id="98">
+                    <firstName>Kate</firstName>
+                    <lastName>Winslet</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="99">
+                    <firstName>James</firstName>
+                    <lastName>Cameron</lastName>
+                </Director>
+            </Director>
+        </movie>
+        <movie id="149">
+            <Title>Shazam! Bijes Bogova</Title>
+            <Description>Ulogu naslovnog heroja u Shazamu 2 će ponovno imati Zachary Levi, a očekuje se da će mu se pridružiti i Asher Angel i Jack Dylan Grazer. David F. Sandberg vratit će se režiji nastavka nakon što je prvi film zaradio $365 milijuna širom svijeta. Henry Gayde</Description>
+            <Duration>0</Duration>
+            <picturePath>assets\movies\1960433541.jpg</picturePath>
             <Genre>
                 <Genre id="1">
                     <name>akcija</name>
@@ -3622,18 +2543,6 @@ Otkad je odlučio trajno prenijeti ljudsku svijest u svoje tijelo Avatara i post
                 <Genre id="16">
                     <name>avantura</name>
                 </Genre>
-                <Genre id="17">
-                    <name>sf</name>
-                </Genre>
-                <Genre id="1">
-                    <name>akcija</name>
-                </Genre>
-                <Genre id="16">
-                    <name>avantura</name>
-                </Genre>
-                <Genre id="17">
-                    <name>sf</name>
-                </Genre>
             </Genre>
             <Actors>
                 <Actor id="92">
@@ -3664,66 +2573,6 @@ Otkad je odlučio trajno prenijeti ljudsku svijest u svoje tijelo Avatara i post
                     <firstName>Kate</firstName>
                     <lastName>Winslet</lastName>
                 </Actor>
-                <Actor id="100">
-                    <firstName>Sigourney</firstName>
-                    <lastName>Weaver</lastName>
-                </Actor>
-                <Actor id="92">
-                    <firstName>Sam</firstName>
-                    <lastName>Worthington</lastName>
-                </Actor>
-                <Actor id="93">
-                    <firstName>Zoe</firstName>
-                    <lastName>Saldana</lastName>
-                </Actor>
-                <Actor id="94">
-                    <firstName>Giovanni</firstName>
-                    <lastName>Ribisi</lastName>
-                </Actor>
-                <Actor id="95">
-                    <firstName>Stephen</firstName>
-                    <lastName>Lang</lastName>
-                </Actor>
-                <Actor id="96">
-                    <firstName>Vin</firstName>
-                    <lastName>Diesel</lastName>
-                </Actor>
-                <Actor id="97">
-                    <firstName>Michelle</firstName>
-                    <lastName>Yeoh</lastName>
-                </Actor>
-                <Actor id="98">
-                    <firstName>Kate</firstName>
-                    <lastName>Winslet</lastName>
-                </Actor>
-                <Actor id="92">
-                    <firstName>Sam</firstName>
-                    <lastName>Worthington</lastName>
-                </Actor>
-                <Actor id="93">
-                    <firstName>Zoe</firstName>
-                    <lastName>Saldana</lastName>
-                </Actor>
-                <Actor id="94">
-                    <firstName>Giovanni</firstName>
-                    <lastName>Ribisi</lastName>
-                </Actor>
-                <Actor id="95">
-                    <firstName>Stephen</firstName>
-                    <lastName>Lang</lastName>
-                </Actor>
-                <Actor id="96">
-                    <firstName>Vin</firstName>
-                    <lastName>Diesel</lastName>
-                </Actor>
-                <Actor id="97">
-                    <firstName>Michelle</firstName>
-                    <lastName>Yeoh</lastName>
-                </Actor>
-                <Actor id="98">
-                    <firstName>Kate</firstName>
-                    <lastName>Winslet</lastName>
-                </Actor>
                 <Actor id="92">
                     <firstName>Sam</firstName>
                     <lastName>Worthington</lastName>
@@ -3847,6 +2696,18 @@ Otkad je odlučio trajno prenijeti ljudsku svijest u svoje tijelo Avatara i post
                 <Actor id="100">
                     <firstName>Sigourney</firstName>
                     <lastName>Weaver</lastName>
+                </Actor>
+                <Actor id="231">
+                    <firstName>Zachary</firstName>
+                    <lastName>Levi</lastName>
+                </Actor>
+                <Actor id="232">
+                    <firstName>Helen</firstName>
+                    <lastName>Mirren</lastName>
+                </Actor>
+                <Actor id="233">
+                    <firstName>Lucy</firstName>
+                    <lastName>Liu</lastName>
                 </Actor>
             </Actors>
             <Director>
@@ -3870,13 +2731,85 @@ Otkad je odlučio trajno prenijeti ljudsku svijest u svoje tijelo Avatara i post
                     <firstName>James</firstName>
                     <lastName>Cameron</lastName>
                 </Director>
-                <Director id="99">
-                    <firstName>James</firstName>
-                    <lastName>Cameron</lastName>
+                <Director id="234">
+                    <firstName>David</firstName>
+                    <lastName>F.</lastName>
                 </Director>
-                <Director id="99">
-                    <firstName>James</firstName>
-                    <lastName>Cameron</lastName>
+            </Director>
+        </movie>
+        <movie id="150">
+            <Description>Ulogu naslovnog heroja u Shazamu 2 će ponovno imati Zachary Levi, a očekuje se da će mu se pridružiti i Asher Angel i Jack Dylan Grazer. David F. Sandberg vratit će se režiji nastavka nakon što je prvi film zaradio $365 milijuna širom svijeta. Henry Gayde</Description>
+            <Duration>0</Duration>
+            <Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+                <Genre id="16">
+                    <name>avantura</name>
+                </Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+                <Genre id="16">
+                    <name>avantura</name>
+                </Genre>
+                <Genre id="1">
+                    <name>akcija</name>
+                </Genre>
+                <Genre id="16">
+                    <name>avantura</name>
+                </Genre>
+            </Genre>
+            <Actors>
+                <Actor id="231">
+                    <firstName>Zachary</firstName>
+                    <lastName>Levi</lastName>
+                </Actor>
+                <Actor id="232">
+                    <firstName>Helen</firstName>
+                    <lastName>Mirren</lastName>
+                </Actor>
+                <Actor id="233">
+                    <firstName>Lucy</firstName>
+                    <lastName>Liu</lastName>
+                </Actor>
+                <Actor id="231">
+                    <firstName>Zachary</firstName>
+                    <lastName>Levi</lastName>
+                </Actor>
+                <Actor id="232">
+                    <firstName>Helen</firstName>
+                    <lastName>Mirren</lastName>
+                </Actor>
+                <Actor id="233">
+                    <firstName>Lucy</firstName>
+                    <lastName>Liu</lastName>
+                </Actor>
+                <Actor id="231">
+                    <firstName>Zachary</firstName>
+                    <lastName>Levi</lastName>
+                </Actor>
+                <Actor id="232">
+                    <firstName>Helen</firstName>
+                    <lastName>Mirren</lastName>
+                </Actor>
+                <Actor id="233">
+                    <firstName>Lucy</firstName>
+                    <lastName>Liu</lastName>
+                </Actor>
+            </Actors>
+            <Director>
+                <Director id="234">
+                    <firstName>David</firstName>
+                    <lastName>F.</lastName>
+                </Director>
+                <Director id="234">
+                    <firstName>David</firstName>
+                    <lastName>F.</lastName>
+                </Director>
+                <Director id="234">
+                    <firstName>David</firstName>
+                    <lastName>F.</lastName>
                 </Director>
             </Director>
         </movie>

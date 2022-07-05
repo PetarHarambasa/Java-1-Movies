@@ -171,7 +171,6 @@ public class UploadMoviePanel extends javax.swing.JPanel {
         } catch (Exception ex) {
             Logger.getLogger(UploadMoviePanel.class.getName()).log(Level.SEVERE, null, ex);
         }
-
     }
 
     private void save(MovieCollection movieCollection, String file) throws JAXBException {
